@@ -12,7 +12,7 @@
         <process>
             <name>TH2M</name>
             <type>TH2M</type>
-            <integration_order>4</integration_order>
+            <integration_order>3</integration_order>
             <constitutive_relation id="0">
                 <type>LinearElasticIsotropic</type>
                 <youngs_modulus>EHeater</youngs_modulus>
@@ -170,8 +170,8 @@
                 <convergence_criterion>
                     <type>PerComponentDeltaX</type>
                     <norm_type>NORM2</norm_type>
-                    <abstols>1e-01 1e-01 1e-01 1e-6 1e-6</abstols>
-                    <reltols>1e-8 1e-8 1e-8 1e-8 1e-8</reltols>
+                    <abstols>1e-10 1e-10 1e-10 1e-10 1e-10</abstols>
+                    <reltols>1e-10 1e-10 1e-10 1e-10 1e-10</reltols>
                 </convergence_criterion>
 
                 <time_discretization>
@@ -179,11 +179,11 @@
                 </time_discretization>
                 <time_stepping>
                     <type>IterationNumberBasedTimeStepping</type>
-                    <t_initial>0.0</t_initial>
+                    <t_initial>-86400000</t_initial>
                     <!--<t_end>201293664</t_end>-->
                     <t_end>473040000</t_end>
-                    <initial_dt>86400</initial_dt>
-                    <minimum_dt>864</minimum_dt>
+                    <initial_dt>864000</initial_dt>
+                    <minimum_dt>86400</minimum_dt>
                     <maximum_dt>4.32e6</maximum_dt>
                     <number_iterations>1 2 5 10 20</number_iterations>
                     <multiplier> 1.6 1.4 1.0 0.7 0.5</multiplier>
@@ -234,9 +234,9 @@
             <mesh>mesh</mesh>
             <name>nonequilibrium_stress</name>
             <type>Function</type>
-            <expression>-2.5e6</expression>
-            <expression>-0.5e6</expression>
-            <expression>0.0</expression>
+            <expression>if((x &lt; 1.6),0.0, -2.577779999999999e6)</expression>
+            <expression>if((x &lt; 1.6),0.0, -0.57778e+6)</expression>
+            <expression>if((x &lt; 1.6),0.0, -2.577779999999999e6)</expression>
             <expression>0</expression>
             <!--expression>-4.0e6</expression>
             <expression>-0.5e6</expression>
@@ -267,13 +267,16 @@
                 if(x &lt; 1.4,1.4268804945393512e8,
                 6.848039236206435e7), -1.9e6)</expression>
         </parameter>
-
+        <!-- <parameter>
+            <name>pressure_ic</name>
+            <type>Function</type>
+            <expression>-2e6</expression>
+        </parameter> -->
         <parameter>
             <name>gas_pressure_ic</name>
             <type>Constant</type>
             <values>1e5</values>
         </parameter>
-
         <parameter>
             <name>ThermalConductivityClay</name>
             <type>Constant</type>
@@ -423,7 +426,7 @@
             <initial_condition>gas_pressure_ic</initial_condition>
             <boundary_conditions>
                 <boundary_condition>
-                    <mesh>mesh</mesh>
+                    <mesh>mesh_right</mesh>
                     <type>Dirichlet</type>
                     <component>0</component>
                     <parameter>gas_pressure_ic</parameter>
@@ -437,6 +440,7 @@
             <components>1</components>
             <order>1</order>
             <initial_condition>pressure_ic</initial_condition>
+            <compensate_non_equilibrium_initial_residuum>false</compensate_non_equilibrium_initial_residuum>
             <boundary_conditions>
                 <boundary_condition>
                     <mesh>mesh_right</mesh>
@@ -453,6 +457,7 @@
             <components>1</components>
             <order>1</order>
             <initial_condition>temperature_ic</initial_condition>
+            <compensate_non_equilibrium_initial_residuum>false</compensate_non_equilibrium_initial_residuum>
             <boundary_conditions>
                 <boundary_condition>
                     <mesh>mesh_right</mesh>
