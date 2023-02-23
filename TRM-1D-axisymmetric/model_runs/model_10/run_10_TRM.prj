@@ -12,7 +12,7 @@
         <process>
             <name>THERMO_RICHARDS_MECHANICS</name>
             <type>THERMO_RICHARDS_MECHANICS</type>
-            <integration_order>4</integration_order>
+            <integration_order>3</integration_order>
             <constitutive_relation id="0">
                 <type>LinearElasticIsotropic</type>
                 <youngs_modulus>EHeater</youngs_modulus>
@@ -47,6 +47,7 @@
                 <secondary_variable internal_name="saturation" output_name="saturation" />
                 <secondary_variable internal_name="sigma" output_name="sigma" />
                 <secondary_variable internal_name="epsilon" output_name="epsilon" />
+                <secondary_variable internal_name="velocity" output_name="velocity" />
             </secondary_variables>
             <initial_stress>nonequilibrium_stress</initial_stress>
             <specific_body_force>0 0</specific_body_force>
@@ -57,7 +58,8 @@
     <media>
         <medium id="0">
             <phases>
-                <!--include file="gas.xml" /-->
+                <!--include
+                file="gas.xml" /-->
                 <phase>
                     <type>AqueousLiquid</type>
                     <properties>
@@ -108,7 +110,8 @@
                         <property>
                             <name>thermal_diffusion_enhancement_factor
                             </name>
-                            <!--water vapor on/off-->
+                            <!--water
+                            vapor on/off-->
                             <type>Constant</type>
                             <value>1.0</value>
                         </property>
@@ -188,7 +191,8 @@
         </medium>
         <medium id="1">
             <phases>
-                <!--include file="gas.xml" /-->
+                <!--include
+                file="gas.xml" /-->
                 <phase>
                     <type>AqueousLiquid</type>
                     <properties>
@@ -239,7 +243,8 @@
                         <property>
                             <name>thermal_diffusion_enhancement_factor
                             </name>
-                            <!--water vapor on/off-->
+                            <!--water
+                            vapor on/off-->
                             <type>Constant</type>
                             <value>1.0</value>
                         </property>
@@ -328,7 +333,8 @@
         </medium>
         <medium id="2">
             <phases>
-                <!--include file="gas.xml" /-->
+                <!--include
+                file="gas.xml" /-->
                 <phase>
                     <type>AqueousLiquid</type>
                     <properties>
@@ -379,7 +385,8 @@
                         <property>
                             <name>thermal_diffusion_enhancement_factor
                             </name>
-                            <!--water vapor on/off-->
+                            <!--water
+                            vapor on/off-->
                             <type>Constant</type>
                             <value>1.0</value>
                         </property>
@@ -463,7 +470,8 @@
         </medium>
         <medium id="3">
             <phases>
-                <!--include file="gas.xml" /-->
+                <!--include
+                file="gas.xml" /-->
                 <phase>
                     <type>AqueousLiquid</type>
                     <properties>
@@ -514,7 +522,8 @@
                         <property>
                             <name>thermal_diffusion_enhancement_factor
                             </name>
-                            <!--water vapor on/off-->
+                            <!--water
+                            vapor on/off-->
                             <type>Constant</type>
                             <value>1.0</value>
                         </property>
@@ -596,7 +605,8 @@
         </medium>
         <medium id="4">
             <phases>
-                <!--include file="gas.xml" /-->
+                <!--include
+                file="gas.xml" /-->
                 <phase>
                     <type>AqueousLiquid</type>
                     <properties>
@@ -647,7 +657,8 @@
                         <property>
                             <name>thermal_diffusion_enhancement_factor
                             </name>
-                            <!--water vapor on/off-->
+                            <!--water
+                            vapor on/off-->
                             <type>Constant</type>
                             <value>1.0</value>
                         </property>
@@ -735,27 +746,28 @@
                 <convergence_criterion>
                     <type>PerComponentDeltaX</type>
                     <norm_type>NORM2</norm_type>
-                    <reltols>1e-6 1e-6 1e-6 1e-6</reltols>
+                    <abstols>1e-10 1e-10 1e-10 1e-10</abstols>
+                    <reltols>1e-10 1e-10 1e-10 1e-10</reltols>
                 </convergence_criterion>
                 <time_discretization>
                     <type>BackwardEuler</type>
                 </time_discretization>
                 <time_stepping>
                     <type>IterationNumberBasedTimeStepping</type>
-                    <t_initial>0.0</t_initial>
+                    <t_initial>-86400000</t_initial>
                     <!--<t_end>201293664</t_end>-->
                     <t_end>473040000</t_end>
                     <initial_dt>864000</initial_dt>
                     <minimum_dt>86400</minimum_dt>
                     <maximum_dt>4.32e6</maximum_dt>
                     <number_iterations>1 2 5 10 20</number_iterations>
-                    <multiplier> 1.6 1.4 1.0 0.7 0.5</multiplier>
+                    <multiplier> 1.6 1.4 1.1 0.7 0.5</multiplier>
                 </time_stepping>
             </process>
         </processes>
         <output>
             <type>VTK</type>
-            <prefix>TRM_run_10_noeq_latentheat_master</prefix>
+            <prefix>TRM_run_10</prefix>
             <timesteps>
                 <pair>
                     <repeat>200</repeat>
@@ -770,6 +782,7 @@
                 <variable>displacement</variable>
                 <variable>sigma</variable>
                 <variable>epsilon</variable>
+                <variable>velocity</variable>
             </variables>
         </output>
     </time_loop>
@@ -778,9 +791,9 @@
             <mesh>mesh</mesh>
             <name>nonequilibrium_stress</name>
             <type>Function</type>
-            <expression>-2.5e6</expression>
-            <expression>-0.5e6</expression>
-            <expression>0.0</expression>
+            <expression>if((x &lt; 1.6),0.0, -2.577779999999999e6)</expression>
+            <expression>if((x &lt; 1.6),0.0, -0.57778e+6)</expression>
+            <expression>if((x &lt; 1.6),0.0, -2.577779999999999e6)</expression>
             <expression>0</expression>
             <!--expression>-4.0e6</expression>
             <expression>-0.5e6</expression>
@@ -790,7 +803,7 @@
         <parameter>
             <name>sigma_rr</name>
             <type>Constant</type>
-            <values>-2.5e6</values>
+            <values>-4.5e6</values>
         </parameter>
         <parameter>
             <name>displacement_ic</name>
@@ -808,6 +821,11 @@
             <expression>if((x &gt;= 0.525) and (x &lt; 1.6),if(x &lt; 1.4,-142788049.45393512,
                 -68580392.36206435), 2.0e6)</expression>
         </parameter>
+        <!--<parameter>
+            <name>pressure_ic</name>
+            <type>Function</type>
+            <expression>2e6</expression>
+        </parameter>-->
         <parameter>
             <name>ThermalConductivityClay</name>
             <type>Constant</type>
@@ -952,6 +970,7 @@
             <components>1</components>
             <order>1</order>
             <initial_condition>pressure_ic</initial_condition>
+            <compensate_non_equilibrium_initial_residuum>false</compensate_non_equilibrium_initial_residuum>
             <boundary_conditions>
                 <boundary_condition>
                     <mesh>mesh_right</mesh>
@@ -966,6 +985,7 @@
             <components>1</components>
             <order>1</order>
             <initial_condition>temperature_ic</initial_condition>
+            <compensate_non_equilibrium_initial_residuum>false</compensate_non_equilibrium_initial_residuum>
             <boundary_conditions>
                 <boundary_condition>
                     <mesh>mesh_right</mesh>
