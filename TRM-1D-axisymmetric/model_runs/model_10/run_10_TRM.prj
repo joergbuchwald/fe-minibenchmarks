@@ -48,6 +48,7 @@
                 <secondary_variable internal_name="sigma" output_name="sigma" />
                 <secondary_variable internal_name="epsilon" output_name="epsilon" />
                 <secondary_variable internal_name="velocity" output_name="velocity" />
+                <secondary_variable internal_name="liquid_density" output_name="liquid_density" />
             </secondary_variables>
             <initial_stress>nonequilibrium_stress</initial_stress>
             <specific_body_force>0 0</specific_body_force>
@@ -783,6 +784,7 @@
                 <variable>sigma</variable>
                 <variable>epsilon</variable>
                 <variable>velocity</variable>
+                <variable>liquid_density</variable>
             </variables>
         </output>
     </time_loop>
