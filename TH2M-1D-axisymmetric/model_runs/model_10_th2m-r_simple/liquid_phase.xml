@@ -32,7 +32,7 @@
                 <property>
                     <name>specific_heat_capacity</name>
                     <type>Constant</type>
-                    <value>4187</value>
+                    <value>4280</value>
                 </property>
             </properties>
         </component>
@@ -40,43 +40,13 @@
     <properties>
         <property>
             <name>density</name>
-            <type>Function</type>
-            <value>
-                <expression>1002.6 * exp(4.5e-10 * (max(liquid_phase_pressure, 0.0) - 1e5) -2.0e-4 *
-                    (temperature-273.15))</expression>
-            </value>
-            <dvalue>
-                <variable_name>concentration</variable_name>
-                <expression>0.</expression>
-            </dvalue>
-            <dvalue>
-                <variable_name>temperature</variable_name>
-                <expression>1002.6 * (-2e-4) *
-                    exp(4.5e-10 * (max(liquid_phase_pressure,
-                    0.0) - 1e5) - 2.0e-4 *
-                    (temperature-273.15))</expression>
-            </dvalue>
-            <dvalue>
-                <variable_name>liquid_phase_pressure</variable_name>
-                <expression>1002.6 *
-                    max(sgn(liquid_phase_pressure),0) * 4.5e-10 *
-                    exp(4.5e-10 *
-                    (max(liquid_phase_pressure, 0.0) - 1e5) - 2.0e-4 *
-                    (temperature-273.15))</expression>
-            </dvalue>
+            <type>Constant</type>
+            <value>1.e3</value>
         </property>
         <property>
             <name>viscosity</name>
-            <type>Function</type>
-            <value>
-                <expression>2.1e-6 *
-                    exp(1808.5/temperature)</expression>
-            </value>
-            <dvalue>
-                <variable_name>temperature</variable_name>
-                <expression>-2.1e-6 * 1808.5 *
-                    exp(1808.5/temperature)/temperature^2</expression>
-            </dvalue>
+            <type>Constant</type>
+            <value>1.e-3</value>
         </property>
         <property>
             <name>thermal_conductivity</name>
