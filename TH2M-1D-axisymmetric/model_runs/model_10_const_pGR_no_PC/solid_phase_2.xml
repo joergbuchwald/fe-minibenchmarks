@@ -1,0 +1,20 @@
+<phase>
+    <type>Solid</type>
+    <properties>
+        <property>
+            <name>density</name>
+            <type>Constant</type>
+            <value>2706</value>
+        </property>
+        <property>
+            <name>specific_heat_capacity</name>
+            <type>Constant</type>
+            <value>750</value>
+        </property>
+        <property>
+            <name>thermal_expansivity</name>
+            <type>Constant</type>
+            <value>1.5e-5</value>
+        </property>
+    </properties>
+</phase>
