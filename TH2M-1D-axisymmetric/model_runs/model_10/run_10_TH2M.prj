@@ -115,7 +115,6 @@
             <properties>
                 <include file="medium_0.xml" />
             </properties>
-
         </medium>
         <medium id="1">
             <phases>
@@ -179,7 +178,7 @@
                 </time_discretization>
                 <time_stepping>
                     <type>IterationNumberBasedTimeStepping</type>
-                    <t_initial>-86400000</t_initial>
+                    <t_initial>0</t_initial>
                     <!--<t_end>201293664</t_end>-->
                     <t_end>473040000</t_end>
                     <initial_dt>864000</initial_dt>
@@ -479,7 +478,7 @@
         <nonlinear_solver>
             <name>basic_newton</name>
             <type>Newton</type>
-            <max_iter>20</max_iter>
+            <max_iter>100</max_iter>
             <linear_solver>general_linear_solver</linear_solver>
         </nonlinear_solver>
     </nonlinear_solvers>
