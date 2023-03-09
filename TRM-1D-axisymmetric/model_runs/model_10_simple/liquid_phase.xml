@@ -21,5 +21,26 @@
             <type>Constant</type>
             <value>0.6</value>
         </property>
+        <property>
+            <name>latent_heat</name>
+            <type>Constant</type>
+            <value>2258000</value>
+        </property>
+        <property>
+            <name>thermal_diffusion_enhancement_factor
+            </name>
+            <!-- water vapor on/off-->
+            <type>Constant</type>
+            <value>1.0</value>
+        </property>
+        <property>
+            <name>vapour_density</name>
+            <type>WaterVapourDensity</type>
+        </property>
+        <property>
+            <name>vapour_diffusion</name>
+            <type>Constant</type>
+            <value>2.6e-6</value>
+        </property>
     </properties>
 </phase>

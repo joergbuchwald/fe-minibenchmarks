@@ -24,6 +24,21 @@
                     <type>Constant</type>
                     <value>0.018016</value>
                 </property>
+                <property>
+                    <name>vapour_pressure</name>
+                    <type>Function</type>
+                    <value>
+                        <expression>8.314462*temperature/0.018016 * 1.e-3 * exp(19.819 -
+                            4975.9/temperature)</expression>
+                    </value>
+                    <dvalue>
+                        <variable_name>temperature</variable_name>
+                        <expression>
+                            8.314462*(4975.9+temperature)*exp(19.819 -
+                            4975.9/temperature)/(1000*0.018016*temperature)
+                        </expression>
+                    </dvalue>
+                </property>
 
                 <!-- <property>
                     <name>vapour_pressure</name>
@@ -36,11 +51,11 @@
                     <reference_pressure>101325</reference_pressure>
                 </property> -->
 
-                <property>
+                <!-- <property>
                     <name>vapour_pressure</name>
                     <type>Constant</type>
                     <value>0.</value>
-                </property>
+                </property> -->
 
                 <property>
                     <name>diffusion</name>
@@ -50,7 +65,7 @@
                 <property>
                     <name>specific_heat_capacity</name>
                     <type>Constant</type>
-                    <value>4187</value>
+                    <value>4280.0</value>
                 </property>
                 <property>
                     <name>specific_latent_heat</name>

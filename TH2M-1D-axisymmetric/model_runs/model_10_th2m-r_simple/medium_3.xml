@@ -34,13 +34,18 @@
     <exponent>0.4</exponent>
     <minimum_relative_permeability_liquid>1e-9</minimum_relative_permeability_liquid>
 </property>
-<property>
+<!-- <property>
     <name>relative_permeability_nonwetting_phase</name>
     <type>RelativePermeabilityNonWettingPhaseVanGenuchtenMualem</type>
     <residual_liquid_saturation>0.3</residual_liquid_saturation>
     <residual_gas_saturation>1e-15</residual_gas_saturation>
     <exponent>0.4</exponent>
     <min_relative_permeability>1e-9</min_relative_permeability>
+</property> -->
+<property>
+    <name>relative_permeability_nonwetting_phase</name>
+    <type>Constant</type>
+    <value>1000.</value>
 </property>
 <property>
     <name>bishops_effective_stress</name>
