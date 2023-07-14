@@ -36,22 +36,10 @@
                     <reference_pressure>101325</reference_pressure>
                 </property>
 
-                <!-- <property>
-                    <name>diffusion</name>
-                    <type>Constant</type>
-                    <value>2.0e-06</value>
-                </property> -->
-
-                <!-- <property>
-                    <name>diffusion</name>
-                    <type>VapourDiffusionFEBEX</type>
-                    <tortuosity>1.0</tortuosity>
-                </property> -->
-
                 <property>
                     <name>specific_heat_capacity</name>
                     <type>Constant</type>
-                    <value>4280</value>
+                    <value>4187</value>
                 </property>
                 <property>
                     <name>specific_latent_heat</name>

@@ -108,7 +108,7 @@
     <media>
         <medium id="0">
             <phases>
-                <include file="gas_phase_1.xml" />
+                <include file="gas_phase_0.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_0.xml" />
             </phases>
@@ -118,7 +118,7 @@
         </medium>
         <medium id="1">
             <phases>
-                <include file="gas_phase_1.xml" />
+                <include file="gas_phase_0.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_1.xml" />
             </phases>
@@ -128,7 +128,7 @@
         </medium>
         <medium id="2">
             <phases>
-                <include file="gas_phase_1.xml" />
+                <include file="gas_phase_0.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_2.xml" />
             </phases>
@@ -138,7 +138,7 @@
         </medium>
         <medium id="3">
             <phases>
-                <include file="gas_phase_1.xml" />
+                <include file="gas_phase_0.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_3.xml" />
             </phases>
@@ -148,7 +148,7 @@
         </medium>
         <medium id="4">
             <phases>
-                <include file="gas_phase_1.xml" />
+                <include file="gas_phase_0.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_4.xml" />
             </phases>

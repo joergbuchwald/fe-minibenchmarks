@@ -32,7 +32,7 @@
                 <property>
                     <name>specific_heat_capacity</name>
                     <type>Constant</type>
-                    <value>4187</value>
+                    <value>4280</value>
                 </property>
             </properties>
         </component>
@@ -65,6 +65,7 @@
                     (temperature-273.15))</expression>
             </dvalue>
         </property>
+
         <property>
             <name>viscosity</name>
             <type>Function</type>
@@ -78,6 +79,19 @@
                     exp(1808.5/temperature)/temperature^2</expression>
             </dvalue>
         </property>
+
+        <!-- <property>
+            <name>density</name>
+            <type>Constant</type>
+            <value>1000.</value>
+        </property>
+        
+        <property>
+            <name>viscosity</name>
+            <type>Constant</type>
+            <value>1.0e-3</value>
+        </property> -->
+
         <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>

@@ -12,12 +12,6 @@
             <tortuosity>1.0</tortuosity>
         </property>
 
-        <!-- <property>
-            <name>vapour_diffusion</name>
-            <type>Constant</type>
-            <value>2.0e-06</value>
-        </property> -->
-
         <property>
             <name>specific_heat_capacity</name>
             <type>Constant</type>

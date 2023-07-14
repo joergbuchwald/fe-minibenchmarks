@@ -38,7 +38,7 @@
         </component>
     </components>
     <properties>
-        <!-- <property>
+        <property>
             <name>density</name>
             <type>Function</type>
             <value>
@@ -64,9 +64,9 @@
                     (max(liquid_phase_pressure, 0.0) - 1e5) - 2.0e-4 *
                     (temperature-273.15))</expression>
             </dvalue>
-        </property> -->
+        </property>
 
-        <!-- <property>
+        <property>
             <name>viscosity</name>
             <type>Function</type>
             <value>
@@ -78,17 +78,19 @@
                 <expression>-2.1e-6 * 1808.5 *
                     exp(1808.5/temperature)/temperature^2</expression>
             </dvalue>
-        </property> -->
-        <property>
+        </property>
+
+        <!-- <property>
             <name>density</name>
             <type>Constant</type>
             <value>1000.</value>
         </property>
+        
         <property>
             <name>viscosity</name>
             <type>Constant</type>
             <value>1.0e-3</value>
-        </property>
+        </property> -->
 
         <property>
             <name>thermal_conductivity</name>

@@ -36,18 +36,6 @@
                     <reference_pressure>101325</reference_pressure>
                 </property>
 
-                <!-- <property>
-                    <name>diffusion</name>
-                    <type>Constant</type>
-                    <value>2.0e-06</value>
-                </property> -->
-
-                <!-- <property>
-                    <name>diffusion</name>
-                    <type>VapourDiffusionFEBEX</type>
-                    <tortuosity>1.0</tortuosity>
-                </property> -->
-
                 <property>
                     <name>specific_heat_capacity</name>
                     <type>Constant</type>
@@ -62,11 +50,13 @@
         </component>
     </components>
     <properties>
+
         <property>
             <name>vapour_diffusion</name>
             <type>Constant</type>
-            <value>2.e-6</value>
+            <value>1.e-5</value>
         </property>
+
         <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>
@@ -76,6 +66,7 @@
             <name>density</name>
             <type>IdealGasLawBinaryMixture</type>
         </property>
+
         <property>
             <name>viscosity</name>
             <type>Constant</type>

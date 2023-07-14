@@ -23,7 +23,8 @@
             <type>Constant</type>
             <value>4280.0</value>
         </property>
-        <!-- <property>
+
+        <property>
             <name>density</name>
             <type>Function</type>
             <value>
@@ -41,8 +42,9 @@
                     exp(4.5e-10 * (max(phase_pressure, 0.0) - 1e5) - 2.0e-4 *
                     (temperature-273.15))</expression>
             </dvalue>
-        </property> -->
-        <!-- <property>
+        </property>
+
+        <property>
             <name>viscosity</name>
             <type>Function</type>
             <value>
@@ -52,7 +54,8 @@
                 <variable_name>temperature</variable_name>
                 <expression>-2.1e-6 * 1808.5 * exp(1808.5/temperature)/temperature^2</expression>
             </dvalue>
-        </property> -->
+        </property>
+
         <property>
             <name>thermal_diffusion_enhancement_factor
             </name>
@@ -71,7 +74,7 @@
             <value>2258000</value>
         </property>
 
-        <property>
+        <!-- <property>
             <name>density</name>
             <type>Constant</type>
             <value>1000.</value>
@@ -80,7 +83,7 @@
             <name>viscosity</name>
             <type>Constant</type>
             <value>1.0e-3</value>
-        </property>
+        </property> -->
 
 
         <property>
