@@ -1,7 +1,0 @@
-echo TRM
-
-~/OGS/build_release/bin/ogs ~/OGS/repository/fe-minibenchmarks/model_10/TRM/run_10_TRM.prj -o ~/OGS/repository/fe-minibenchmarks/model_10/TRM/results
-
-echo TH2M
-
-~/OGS/build_release/bin/ogs ~/OGS/repository/fe-minibenchmarks/model_10/TH2M_const_pGR/run_10_TH2M_const_pGR.prj -o ~/OGS/repository/fe-minibenchmarks/model_10/TH2M_const_pGR/results
