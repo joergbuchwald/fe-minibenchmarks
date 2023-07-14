@@ -62,8 +62,9 @@
         </component>
     </components>
     <properties>
+
         <property>
-            <name>diffusion</name>
+            <name>vapour_diffusion</name>
             <type>VapourDiffusionFEBEX</type>
             <tortuosity>1.0</tortuosity>
         </property>

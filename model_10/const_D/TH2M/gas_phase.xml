@@ -36,17 +36,12 @@
                     <reference_pressure>101325</reference_pressure>
                 </property>
 
-                <!-- <property>
+                <property>
                     <name>diffusion</name>
                     <type>Constant</type>
-                    <value>2.0e-06</value>
-                </property> -->
-
-                <!-- <property>
-                    <name>diffusion</name>
-                    <type>VapourDiffusionFEBEX</type>
-                    <tortuosity>1.0</tortuosity>
-                </property> -->
+                    <!-- wird im code noch mit phi und S_L multipliziert-->
+                    <value>1.0e-06</value>
+                </property>
 
                 <property>
                     <name>specific_heat_capacity</name>
@@ -62,13 +57,11 @@
         </component>
     </components>
     <properties>
-
         <property>
             <name>vapour_diffusion</name>
-            <type>VapourDiffusionFEBEX</type>
-            <tortuosity>1.0</tortuosity>
+            <type>Constant</type>
+            <value>2.e-6</value>
         </property>
-
         <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>

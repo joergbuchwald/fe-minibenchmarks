@@ -108,7 +108,7 @@
     <media>
         <medium id="0">
             <phases>
-                <include file="gas_phase.xml" />
+                <include file="gas_phase_1.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_0.xml" />
             </phases>
@@ -128,7 +128,7 @@
         </medium>
         <medium id="2">
             <phases>
-                <include file="gas_phase_2.xml" />
+                <include file="gas_phase_1.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_2.xml" />
             </phases>
@@ -138,7 +138,7 @@
         </medium>
         <medium id="3">
             <phases>
-                <include file="gas_phase_3.xml" />
+                <include file="gas_phase_1.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_3.xml" />
             </phases>
@@ -148,7 +148,7 @@
         </medium>
         <medium id="4">
             <phases>
-                <include file="gas_phase_4.xml" />
+                <include file="gas_phase_1.xml" />
                 <include file="liquid_phase.xml" />
                 <include file="solid_phase_4.xml" />
             </phases>
@@ -176,18 +176,18 @@
                 <time_discretization>
                     <type>BackwardEuler</type>
                 </time_discretization>
-                <!-- <time_stepping>
+                <time_stepping>
                     <type>IterationNumberBasedTimeStepping</type>
-                    <t_initial>0</t_initial>
+                    <t_initial>-31557600</t_initial>
                     <t_end>473040000</t_end>
                     <initial_dt>864000</initial_dt>
                     <minimum_dt>86400</minimum_dt>
                     <maximum_dt>4.32e6</maximum_dt>
                     <number_iterations>1 2 5 10 20</number_iterations>
                     <multiplier> 1.6 1.4 1.1 0.7 0.5</multiplier>
-                </time_stepping> -->
+                </time_stepping>
 
-                <time_stepping>
+                <!-- <time_stepping>
                     <type>FixedTimeStepping</type>
                     <t_initial>-31557600</t_initial>
                     <t_end>473040000</t_end>
@@ -210,12 +210,12 @@
                         </pair>
                     </timesteps>
 
-                </time_stepping>
+                </time_stepping> -->
             </process>
         </processes>
         <output>
             <type>VTK</type>
-            <prefix>TH2M_run_10_const_pGR</prefix>
+            <prefix>TH2M_run_10</prefix>
             <timesteps>
                 <pair>
                     <repeat>200</repeat>
@@ -298,7 +298,7 @@
         <parameter>
             <name>gas_pressure_ic</name>
             <type>Constant</type>
-            <values>1e1</values>
+            <values>1e5</values>
         </parameter>
         <parameter>
             <name>ThermalConductivityClay</name>
@@ -449,7 +449,7 @@
             <initial_condition>gas_pressure_ic</initial_condition>
             <boundary_conditions>
                 <boundary_condition>
-                    <mesh>mesh</mesh>
+                    <mesh>mesh_right</mesh>
                     <type>Dirichlet</type>
                     <component>0</component>
                     <parameter>gas_pressure_ic</parameter>

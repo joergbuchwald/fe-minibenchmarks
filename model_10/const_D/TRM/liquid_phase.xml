@@ -6,24 +6,24 @@
             <type>WaterVapourDensity</type>
         </property>
 
-        <property>
+        <!-- <property>
             <name>vapour_diffusion</name>
             <type>VapourDiffusionFEBEX</type>
             <tortuosity>1.0</tortuosity>
-        </property>
+        </property> -->
 
-        <!-- <property>
+        <property>
             <name>vapour_diffusion</name>
             <type>Constant</type>
-            <value>2.0e-06</value>
-        </property> -->
+            <value>1.e-5</value>
+        </property>
 
         <property>
             <name>specific_heat_capacity</name>
             <type>Constant</type>
             <value>4280.0</value>
         </property>
-        <property>
+        <!-- <property>
             <name>density</name>
             <type>Function</type>
             <value>
@@ -41,8 +41,8 @@
                     exp(4.5e-10 * (max(phase_pressure, 0.0) - 1e5) - 2.0e-4 *
                     (temperature-273.15))</expression>
             </dvalue>
-        </property>
-        <property>
+        </property> -->
+        <!-- <property>
             <name>viscosity</name>
             <type>Function</type>
             <value>
@@ -52,7 +52,7 @@
                 <variable_name>temperature</variable_name>
                 <expression>-2.1e-6 * 1808.5 * exp(1808.5/temperature)/temperature^2</expression>
             </dvalue>
-        </property>
+        </property> -->
         <property>
             <name>thermal_diffusion_enhancement_factor
             </name>
@@ -61,10 +61,28 @@
             <type>Constant</type>
             <value>1.0</value>
         </property>
-        <property>
+        <!-- <property>
             <name>latent_heat</name>
             <type>LinearWaterVapourLatentHeat</type>
+        </property> -->
+        <property>
+            <name>latent_heat</name>
+            <type>Constant</type>
+            <value>2258000</value>
         </property>
+
+        <property>
+            <name>density</name>
+            <type>Constant</type>
+            <value>1000.</value>
+        </property>
+        <property>
+            <name>viscosity</name>
+            <type>Constant</type>
+            <value>1.0e-3</value>
+        </property>
+
+
         <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>

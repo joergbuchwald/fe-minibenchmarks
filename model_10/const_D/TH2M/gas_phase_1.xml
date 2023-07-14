@@ -51,7 +51,7 @@
                 <property>
                     <name>specific_heat_capacity</name>
                     <type>Constant</type>
-                    <value>4187</value>
+                    <value>4280</value>
                 </property>
                 <property>
                     <name>specific_latent_heat</name>
@@ -65,8 +65,8 @@
 
         <property>
             <name>vapour_diffusion</name>
-            <type>VapourDiffusionFEBEX</type>
-            <tortuosity>1.0</tortuosity>
+            <type>Constant</type>
+            <value>1.e-5</value>
         </property>
 
         <property>

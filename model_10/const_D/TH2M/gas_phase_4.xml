@@ -62,13 +62,11 @@
         </component>
     </components>
     <properties>
-
         <property>
             <name>vapour_diffusion</name>
-            <type>VapourDiffusionFEBEX</type>
-            <tortuosity>1.0</tortuosity>
+            <type>Constant</type>
+            <value>2.e-6</value>
         </property>
-
         <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>
@@ -78,7 +76,6 @@
             <name>density</name>
             <type>IdealGasLawBinaryMixture</type>
         </property>
-
         <property>
             <name>viscosity</name>
             <type>Constant</type>

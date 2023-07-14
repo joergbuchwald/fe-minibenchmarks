@@ -58,6 +58,11 @@
     </components>
     <properties>
         <property>
+            <name>vapour_diffusion</name>
+            <type>VapourDiffusionFEBEX</type>
+            <tortuosity>1.0</tortuosity>
+        </property>
+        <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>
             <value>0.2</value>
