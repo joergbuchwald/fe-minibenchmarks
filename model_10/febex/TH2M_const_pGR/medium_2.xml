@@ -1,3 +1,4 @@
+<properties>
 <property>
     <name>permeability</name>
     <type>Constant</type>
@@ -31,11 +32,13 @@
 </property>
 <property>
     <name>relative_permeability_nonwetting_phase</name>
-    <type>RelativePermeabilityNonWettingPhaseVanGenuchtenMualem</type>
+    <type>Constant</type>
+    <value>1000</value>
+    <!--type>RelativePermeabilityNonWettingPhaseVanGenuchtenMualem</type>
     <residual_liquid_saturation>0.3</residual_liquid_saturation>
     <residual_gas_saturation>1e-15</residual_gas_saturation>
     <exponent>0.33</exponent>
-    <min_relative_permeability>1e-9</min_relative_permeability>
+    <min_relative_permeability>1e-9</min_relative_permeability-->
 </property>
 <property>
     <name>bishops_effective_stress</name>
@@ -49,3 +52,4 @@
     <wet_thermal_conductivity>lambda_wet0</wet_thermal_conductivity>
     <mean_type>arithmetic_linear</mean_type>
 </property>
+</properties>

@@ -1,3 +1,4 @@
+<properties>
 <property>
     <name>thermal_conductivity</name>
     <type>EffectiveThermalConductivityPorosityMixing</type>
@@ -30,10 +31,12 @@
 <property>
     <name>relative_permeability_nonwetting_phase</name>
     <type>Constant</type>
-    <value>1</value>
+    <value>1000</value>
 </property>
 <property>
     <name>bishops_effective_stress</name>
     <type>BishopsPowerLaw</type>
     <exponent>8</exponent>
 </property>
+</properties>
+

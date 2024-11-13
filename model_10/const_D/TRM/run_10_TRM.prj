@@ -12,7 +12,7 @@
         <process>
             <name>THERMO_RICHARDS_MECHANICS</name>
             <type>THERMO_RICHARDS_MECHANICS</type>
-            <integration_order>3</integration_order>
+            <integration_order>4</integration_order>
             <constitutive_relation id="0">
                 <type>LinearElasticIsotropic</type>
                 <youngs_modulus>EHeater</youngs_modulus>
@@ -44,11 +44,11 @@
                 <displacement>displacement</displacement>
             </process_variables>
             <secondary_variables>
-                <secondary_variable internal_name="saturation" output_name="saturation" />
-                <secondary_variable internal_name="sigma" output_name="sigma" />
-                <secondary_variable internal_name="epsilon" output_name="epsilon" />
-                <secondary_variable internal_name="velocity" output_name="velocity" />
-                <secondary_variable internal_name="liquid_density" output_name="liquid_density" />
+                <secondary_variable internal_name="saturation" output_name="saturation"/>
+                <secondary_variable internal_name="sigma" output_name="sigma"/>
+                <secondary_variable internal_name="epsilon" output_name="epsilon"/>
+                <secondary_variable internal_name="velocity" output_name="velocity"/>
+                <secondary_variable internal_name="liquid_density" output_name="liquid_density"/>
             </secondary_variables>
             <initial_stress>nonequilibrium_stress</initial_stress>
             <specific_body_force>0 0</specific_body_force>
@@ -59,58 +59,43 @@
     <media>
         <medium id="0">
             <phases>
-                <!--include
-                file="gas.xml" /-->
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_0.xml" />
+                <include file="gas.xml" />
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_0.xml"/>
             </phases>
-            <properties>
-                <include file="medium_0.xml" />
-            </properties>
+            <include file="medium_0.xml"/>
         </medium>
         <medium id="1">
             <phases>
-                <!--include
-                file="gas.xml" /-->
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_1.xml" />
+                <include file="gas.xml" />
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_1.xml"/>
             </phases>
-            <properties>
-                <include file="medium_1.xml" />
-            </properties>
+            <include file="medium_1.xml"/>
         </medium>
         <medium id="2">
             <phases>
-                <!--include
-                file="gas.xml" /-->
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_2.xml" />
+                <include file="gas.xml" />
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_2.xml"/>
             </phases>
-            <properties>
-                <include file="medium_2.xml" />
-            </properties>
+            <include file="medium_2.xml"/>
         </medium>
         <medium id="3">
             <phases>
-                <!--include
-                file="gas.xml" /-->
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_3.xml" />
+                <include file="gas.xml" />
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_3.xml"/>
             </phases>
-            <properties>
-                <include file="medium_3.xml" />
-            </properties>
+            <include file="medium_3.xml"/>
         </medium>
         <medium id="4">
             <phases>
-                <!--include
-                file="gas.xml" /-->
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_4.xml" />
+                <include file="gas.xml" />
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_4.xml"/>
             </phases>
-            <properties>
-                <include file="medium_4.xml" />
-            </properties>
+            <include file="medium_4.xml"/>
         </medium>
     </media>
     <time_loop>
@@ -126,6 +111,16 @@
                 <time_discretization>
                     <type>BackwardEuler</type>
                 </time_discretization>
+                <time_stepping>
+                    <type>IterationNumberBasedTimeStepping</type>
+                    <t_initial>-31557600</t_initial>
+                    <t_end>473040000</t_end>
+                    <initial_dt>864000</initial_dt>
+                    <minimum_dt>86400</minimum_dt>
+                    <maximum_dt>4.32e6</maximum_dt>
+                    <number_iterations>1 2 5 10 20</number_iterations>
+                    <multiplier> 1.6 1.4 1.1 0.7 0.5</multiplier>
+                </time_stepping>
                 <!-- <time_stepping>
                     <type>IterationNumberBasedTimeStepping</type>
                     <t_initial>0</t_initial>
@@ -136,8 +131,7 @@
                     <number_iterations>1 2 5 10 20</number_iterations>
                     <multiplier> 1.6 1.4 1.1 0.7 0.5</multiplier>
                 </time_stepping> -->
-
-                <time_stepping>
+                <!--time_stepping>
                     <type>FixedTimeStepping</type>
                     <t_initial>-31557600</t_initial>
                     <t_end>473040000</t_end>
@@ -159,9 +153,7 @@
                             <delta_t>3456000</delta_t>
                         </pair>
                     </timesteps>
-
-                </time_stepping>
-
+                </time_stepping-->
             </process>
         </processes>
         <output>

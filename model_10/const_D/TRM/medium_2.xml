@@ -1,3 +1,4 @@
+<properties>
 <property>
     <name>permeability</name>
     <type>Constant</type>
@@ -49,3 +50,4 @@
     <wet_thermal_conductivity>lambda_wet0</wet_thermal_conductivity>
     <mean_type>arithmetic_linear</mean_type>
 </property>
+</properties>

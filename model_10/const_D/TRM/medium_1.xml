@@ -1,3 +1,4 @@
+<properties>
 <property>
     <name>permeability</name>
     <type>Constant</type>
@@ -54,3 +55,4 @@
             1.2^liquid_saturation*0.35^(1-liquid_saturation)</expression>
     </dvalue>
 </property>
+</properties>

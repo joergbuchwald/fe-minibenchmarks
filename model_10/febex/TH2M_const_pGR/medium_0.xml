@@ -1,3 +1,4 @@
+<properties>
 <property>
     <name>thermal_conductivity</name>
     <type>EffectiveThermalConductivityPorosityMixing</type>
@@ -37,3 +38,4 @@
     <type>BishopsPowerLaw</type>
     <exponent>8</exponent>
 </property>
+</properties>

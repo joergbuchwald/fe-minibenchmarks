@@ -43,20 +43,17 @@
                 </property>
                 <property>
                     <name>specific_latent_heat</name>
-                    <type>Constant</type>
-                    <value>2258000</value>
+                    <type>LinearWaterVapourLatentHeat</type>
+                </property>
+                <property>
+                    <name>diffusion</name>
+                    <type>VapourDiffusionFEBEX</type>
+                    <tortuosity>1.0</tortuosity>
                 </property>
             </properties>
         </component>
     </components>
     <properties>
-
-        <property>
-            <name>vapour_diffusion</name>
-            <type>VapourDiffusionFEBEX</type>
-            <tortuosity>1.0</tortuosity>
-        </property>
-
         <property>
             <name>thermal_conductivity</name>
             <type>Constant</type>

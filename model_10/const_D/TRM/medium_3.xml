@@ -1,3 +1,4 @@
+<properties>
 <property>
     <name>thermal_conductivity</name>
     <type>Parameter</type>
@@ -47,3 +48,4 @@
     <type>BishopsSaturationCutoff</type>
     <cutoff_value>0.9999</cutoff_value>
 </property>
+</properties>

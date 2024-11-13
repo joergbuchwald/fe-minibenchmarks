@@ -12,7 +12,7 @@
         <process>
             <name>TH2M</name>
             <type>TH2M</type>
-            <integration_order>3</integration_order>
+            <integration_order>4</integration_order>
             <constitutive_relation id="0">
                 <type>LinearElasticIsotropic</type>
                 <youngs_modulus>EHeater</youngs_modulus>
@@ -38,9 +38,7 @@
                 <youngs_modulus>EOPA</youngs_modulus>
                 <poissons_ratio>nuOPA</poissons_ratio>
             </constitutive_relation>
-
             <jacobian_assembler>
-
                 <type>ForwardDifferences</type>
                 <component_magnitudes>
                     1e5 1e5 1e5 1e5
@@ -56,7 +54,6 @@
                     1e-4 1e-4 1e-4 1e-4
                     1e-4 1e-4 1e-4 1e-4
                 </relative_epsilons>
-
                 <!-- <type>CentralDifferences</type>
                 <component_magnitudes>
                     1e5 1e5 1e5 1e5
@@ -73,8 +70,6 @@
                     1e-4 1e-4 1e-4 1e-4
                 </relative_epsilons> -->
             </jacobian_assembler>
-
-
             <reference_temperature>temperature_ic</reference_temperature>
             <process_variables>
                 <gas_pressure>gas_pressure</gas_pressure>
@@ -83,22 +78,21 @@
                 <displacement>displacement</displacement>
             </process_variables>
             <secondary_variables>
-                <secondary_variable internal_name="velocity_gas" output_name="velocity_gas" />
-                <secondary_variable internal_name="velocity_liquid" output_name="velocity_liquid" />
-                <secondary_variable internal_name="sigma" output_name="sigma" />
-                <secondary_variable internal_name="epsilon" output_name="epsilon" />
-                <secondary_variable internal_name="liquid_density" output_name="liquid_density" />
-                <secondary_variable internal_name="gas_density" output_name="gas_density" />
-                <secondary_variable internal_name="solid_density" output_name="solid_density" />
-                <secondary_variable internal_name="vapour_pressure" output_name="vapour_pressure" />
-                <secondary_variable internal_name="porosity" output_name="porosity" />
-                <secondary_variable internal_name="saturation" output_name="saturation" />
-                <secondary_variable internal_name="mole_fraction_gas" output_name="xnCG" />
-                <secondary_variable internal_name="mass_fraction_gas" output_name="xmCG" />
-                <secondary_variable internal_name="mass_fraction_liquid" output_name="xmWL" />
-                <secondary_variable internal_name="relative_permeability_gas" output_name="k_rel_G" />
-                <secondary_variable internal_name="relative_permeability_liquid"
-                    output_name="k_rel_L" />
+                <secondary_variable internal_name="velocity_gas" output_name="velocity_gas"/>
+                <secondary_variable internal_name="velocity_liquid" output_name="velocity_liquid"/>
+                <secondary_variable internal_name="sigma" output_name="sigma"/>
+                <secondary_variable internal_name="epsilon" output_name="epsilon"/>
+                <secondary_variable internal_name="liquid_density" output_name="liquid_density"/>
+                <secondary_variable internal_name="gas_density" output_name="gas_density"/>
+                <secondary_variable internal_name="solid_density" output_name="solid_density"/>
+                <secondary_variable internal_name="vapour_pressure" output_name="vapour_pressure"/>
+                <secondary_variable internal_name="porosity" output_name="porosity"/>
+                <secondary_variable internal_name="saturation" output_name="saturation"/>
+                <secondary_variable internal_name="mole_fraction_gas" output_name="xnCG"/>
+                <secondary_variable internal_name="mass_fraction_gas" output_name="xmCG"/>
+                <secondary_variable internal_name="mass_fraction_liquid" output_name="xmWL"/>
+                <secondary_variable internal_name="relative_permeability_gas" output_name="k_rel_G"/>
+                <secondary_variable internal_name="relative_permeability_liquid" output_name="k_rel_L"/>
             </secondary_variables>
             <initial_stress>nonequilibrium_stress</initial_stress>
             <specific_body_force>0 0</specific_body_force>
@@ -108,53 +102,43 @@
     <media>
         <medium id="0">
             <phases>
-                <include file="gas_phase_0.xml" />
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_0.xml" />
+                <include file="gas_phase_0.xml"/>
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_0.xml"/>
             </phases>
-            <properties>
-                <include file="medium_0.xml" />
-            </properties>
+            <include file="medium_0.xml"/>
         </medium>
         <medium id="1">
             <phases>
-                <include file="gas_phase_0.xml" />
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_1.xml" />
+                <include file="gas_phase_0.xml"/>
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_1.xml"/>
             </phases>
-            <properties>
-                <include file="medium_1.xml" />
-            </properties>
+            <include file="medium_1.xml"/>
         </medium>
         <medium id="2">
             <phases>
-                <include file="gas_phase_0.xml" />
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_2.xml" />
+                <include file="gas_phase_0.xml"/>
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_2.xml"/>
             </phases>
-            <properties>
-                <include file="medium_2.xml" />
-            </properties>
+            <include file="medium_2.xml"/>
         </medium>
         <medium id="3">
             <phases>
-                <include file="gas_phase_0.xml" />
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_3.xml" />
+                <include file="gas_phase_0.xml"/>
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_3.xml"/>
             </phases>
-            <properties>
-                <include file="medium_3.xml" />
-            </properties>
+            <include file="medium_3.xml"/>
         </medium>
         <medium id="4">
             <phases>
-                <include file="gas_phase_0.xml" />
-                <include file="liquid_phase.xml" />
-                <include file="solid_phase_4.xml" />
+                <include file="gas_phase_0.xml"/>
+                <include file="liquid_phase.xml"/>
+                <include file="solid_phase_4.xml"/>
             </phases>
-            <properties>
-                <include file="medium_4.xml" />
-            </properties>
+            <include file="medium_4.xml"/>
         </medium>
     </media>
     <time_loop>
@@ -172,7 +156,6 @@
                     <abstols>1e-10 1e-10 1e-10 1e-10 1e-10</abstols>
                     <reltols>1e-10 1e-10 1e-10 1e-10 1e-10</reltols>
                 </convergence_criterion>
-
                 <time_discretization>
                     <type>BackwardEuler</type>
                 </time_discretization>
@@ -181,12 +164,11 @@
                     <t_initial>-31557600</t_initial>
                     <t_end>473040000</t_end>
                     <initial_dt>864000</initial_dt>
-                    <minimum_dt>86400</minimum_dt>
+                    <minimum_dt>864000</minimum_dt>
                     <maximum_dt>4.32e6</maximum_dt>
                     <number_iterations>1 2 5 10 20</number_iterations>
                     <multiplier> 1.6 1.4 1.1 0.7 0.5</multiplier>
                 </time_stepping>
-
                 <!-- <time_stepping>
                     <type>FixedTimeStepping</type>
                     <t_initial>-31557600</t_initial>
@@ -497,12 +479,11 @@
             </boundary_conditions>
         </process_variable>
     </process_variables>
-
     <nonlinear_solvers>
         <nonlinear_solver>
             <name>basic_newton</name>
             <type>Newton</type>
-            <max_iter>100</max_iter>
+            <max_iter>50</max_iter>
             <linear_solver>general_linear_solver</linear_solver>
         </nonlinear_solver>
     </nonlinear_solvers>
@@ -516,7 +497,6 @@
                 <max_iteration_step>10000</max_iteration_step>
                 <error_tolerance>1e-12</error_tolerance>
             </eigen>
-
             <!-- <eigen>
                 <solver_type>SparseLU</solver_type>
                 <scaling>true</scaling>

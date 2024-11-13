@@ -1,0 +1,1608 @@
+info: This is OpenGeoSys-6 version 6.5.3-21-g46ec6d65.
+info: OGS started on 2024-10-26 18:05:45+0200.
+info: Reading project file /home/buchwalj/github/fe-minibenchmarks/notebook/minibench-SA/results/PB/run_0trm_ogs.prj.
+warning: Array 'vtkOriginalPointIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalCellIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalPointIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalCellIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalPointIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalCellIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalPointIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+warning: Array 'vtkOriginalCellIds' in VTU file uses unsupported data type 'idtype' of size 8. The data array will not be available.
+info: readRasters ...
+info: readRasters done
+info: FunctionParameter: nonequilibrium_stress
+info: ConstantParameter: sigma_rr
+info: ConstantParameter: displacement_ic
+info: ConstantParameter: temperature_ic
+info: FunctionParameter: pressure_ic
+info: ConstantParameter: ThermalConductivityClay
+info: ConstantParameter: IntrinsicPermClay
+info: ConstantParameter: IntrinsicPermClayEDZ
+info: ConstantParameter: EHeater
+info: ConstantParameter: nuHeater
+info: ConstantParameter: EGBM
+info: ConstantParameter: nuGBM
+info: ConstantParameter: EShotcrete
+info: ConstantParameter: nuShotcrete
+info: ConstantParameter: EEDZ
+info: ConstantParameter: nuEDZ
+info: ConstantParameter: EOPA
+info: ConstantParameter: nuOPA
+info: ConstantParameter: null
+info: ConstantParameter: Qvalue
+info: ConstantParameter: lambda_dry0
+info: ConstantParameter: lambda_wet0
+info: CurveScaledParameter: temperature_source_term1
+info: No source terms for process variable 'displacement' found.
+info: No source terms for process variable 'pressure' found.
+info: No source terms for process variable 'temperature' found.
+info: TRM process subtype is 'Stress_StrainTemperature'
+info: TRM process initializeSubmeshOutput().
+info: Initialize processes.
+info: Checking correct model evaluation order in the constitutive setting.
+info: Model evaluation order is correct.
+info: [time] Output of timestep 0 took 0.0098936 s.
+info: Solve processes.
+info: === Time stepping at step #1 and time -777600 with step size 86400
+info: Number of threads: 6
+info: [time] Assembly took 0.0220013 s.
+info: [time] Applying Dirichlet BCs took 0.00257893 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0255647 s.
+info: Convergence criterion, component 0: |dx|=3.9763e-01, |x|=1.0209e+04, |dx|/|x|=3.8949e-05
+info: Convergence criterion, component 1: |dx|=9.0167e+07, |x|=2.3555e+09, |dx|/|x|=3.8279e-02
+info: Convergence criterion, component 2: |dx|=1.1068e-02, |x|=1.1068e-02, |dx|/|x|=1.0000e+00
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0511537 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0118843 s.
+info: [time] Applying Dirichlet BCs took 0.00228803 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.011696 s.
+info: Convergence criterion, component 0: |dx|=1.8105e-02, |x|=1.0209e+04, |dx|/|x|=1.7734e-06
+info: Convergence criterion, component 1: |dx|=3.9632e+07, |x|=2.3539e+09, |dx|/|x|=1.6837e-02
+info: Convergence criterion, component 2: |dx|=2.9755e-04, |x|=1.0841e-02, |dx|/|x|=2.7448e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0265061 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0101184 s.
+info: [time] Applying Dirichlet BCs took 0.00155609 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00919985 s.
+info: Convergence criterion, component 0: |dx|=1.9174e-02, |x|=1.0209e+04, |dx|/|x|=1.8782e-06
+info: Convergence criterion, component 1: |dx|=7.6786e+06, |x|=2.3540e+09, |dx|/|x|=3.2619e-03
+info: Convergence criterion, component 2: |dx|=1.4989e-04, |x|=1.0733e-02, |dx|/|x|=1.3966e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0214856 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0120507 s.
+info: [time] Applying Dirichlet BCs took 0.00110708 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00930379 s.
+info: Convergence criterion, component 0: |dx|=2.2224e-03, |x|=1.0209e+04, |dx|/|x|=2.1769e-07
+info: Convergence criterion, component 1: |dx|=3.2934e+06, |x|=2.3539e+09, |dx|/|x|=1.3991e-03
+info: Convergence criterion, component 2: |dx|=2.4351e-05, |x|=1.0715e-02, |dx|/|x|=2.2726e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0235748 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0130682 s.
+info: [time] Applying Dirichlet BCs took 0.00142598 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00880644 s.
+info: Convergence criterion, component 0: |dx|=1.4458e-04, |x|=1.0209e+04, |dx|/|x|=1.4162e-08
+info: Convergence criterion, component 1: |dx|=5.1151e+05, |x|=2.3539e+09, |dx|/|x|=2.1730e-04
+info: Convergence criterion, component 2: |dx|=1.2560e-06, |x|=1.0714e-02, |dx|/|x|=1.1722e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0239359 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0146547 s.
+info: [time] Applying Dirichlet BCs took 0.0012679 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0163816 s.
+info: Convergence criterion, component 0: |dx|=6.5124e-05, |x|=1.0209e+04, |dx|/|x|=6.3790e-09
+info: Convergence criterion, component 1: |dx|=1.8340e+04, |x|=2.3539e+09, |dx|/|x|=7.7913e-06
+info: Convergence criterion, component 2: |dx|=2.5074e-07, |x|=1.0714e-02, |dx|/|x|=2.3403e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.033796 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0178289 s.
+info: [time] Applying Dirichlet BCs took 0.00204275 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0148037 s.
+info: Convergence criterion, component 0: |dx|=1.6165e-06, |x|=1.0209e+04, |dx|/|x|=1.5834e-10
+info: Convergence criterion, component 1: |dx|=3.7031e+02, |x|=2.3539e+09, |dx|/|x|=1.5732e-07
+info: Convergence criterion, component 2: |dx|=4.4133e-10, |x|=1.0714e-02, |dx|/|x|=4.1192e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0355178 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0159248 s.
+info: [time] Applying Dirichlet BCs took 0.00205591 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0132637 s.
+info: Convergence criterion, component 0: |dx|=1.1520e-07, |x|=1.0209e+04, |dx|/|x|=1.1284e-11
+info: Convergence criterion, component 1: |dx|=9.8796e+00, |x|=2.3539e+09, |dx|/|x|=4.1971e-09
+info: Convergence criterion, component 2: |dx|=1.3265e-12, |x|=1.0714e-02, |dx|/|x|=1.2381e-10
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #8 took 0.0321016 s.
+info: [time] Solving process #0 took 0.24811 s in time step #1
+info: [time] Time step #1 took 0.256265 s.
+info: === Time stepping at step #2 and time -691200 with step size 86400
+info: Number of threads: 6
+info: [time] Assembly took 0.0092122 s.
+info: [time] Applying Dirichlet BCs took 0.000993455 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00962615 s.
+info: Convergence criterion, component 0: |dx|=1.6859e-01, |x|=1.0209e+04, |dx|/|x|=1.6514e-05
+info: Convergence criterion, component 1: |dx|=4.1615e+07, |x|=2.3511e+09, |dx|/|x|=1.7700e-02
+info: Convergence criterion, component 2: |dx|=3.3035e-04, |x|=1.0930e-02, |dx|/|x|=3.0224e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0204554 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0093744 s.
+info: [time] Applying Dirichlet BCs took 0.000935624 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00834287 s.
+info: Convergence criterion, component 0: |dx|=4.2973e-03, |x|=1.0209e+04, |dx|/|x|=4.2093e-07
+info: Convergence criterion, component 1: |dx|=2.6668e+06, |x|=2.3514e+09, |dx|/|x|=1.1341e-03
+info: Convergence criterion, component 2: |dx|=3.7845e-05, |x|=1.0902e-02, |dx|/|x|=3.4713e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0192843 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0119991 s.
+info: [time] Applying Dirichlet BCs took 0.000949842 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00807955 s.
+info: Convergence criterion, component 0: |dx|=4.0877e-04, |x|=1.0209e+04, |dx|/|x|=4.0040e-08
+info: Convergence criterion, component 1: |dx|=8.1832e+04, |x|=2.3514e+09, |dx|/|x|=3.4801e-05
+info: Convergence criterion, component 2: |dx|=2.3365e-06, |x|=1.0900e-02, |dx|/|x|=2.1434e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0216368 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0126 s.
+info: [time] Applying Dirichlet BCs took 0.00105195 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00958747 s.
+info: Convergence criterion, component 0: |dx|=7.2573e-06, |x|=1.0209e+04, |dx|/|x|=7.1087e-10
+info: Convergence criterion, component 1: |dx|=9.0262e+02, |x|=2.3514e+09, |dx|/|x|=3.8386e-07
+info: Convergence criterion, component 2: |dx|=2.3469e-09, |x|=1.0900e-02, |dx|/|x|=2.1530e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.023889 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0106229 s.
+info: [time] Applying Dirichlet BCs took 0.0011426 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0084849 s.
+info: Convergence criterion, component 0: |dx|=6.0853e-08, |x|=1.0209e+04, |dx|/|x|=5.9607e-12
+info: Convergence criterion, component 1: |dx|=2.5339e+01, |x|=2.3514e+09, |dx|/|x|=1.0776e-08
+info: Convergence criterion, component 2: |dx|=2.9395e-11, |x|=1.0900e-02, |dx|/|x|=2.6967e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0208474 s.
+info: [time] Solving process #0 took 0.106132 s in time step #2
+info: [time] Time step #2 took 0.116413 s.
+info: [time] Output of timestep 2 took 0.0224211 s.
+info: === Time stepping at step #3 and time -587520 with step size 103680
+info: Number of threads: 6
+info: [time] Assembly took 0.00867393 s.
+info: [time] Applying Dirichlet BCs took 0.000946458 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00802016 s.
+info: Convergence criterion, component 0: |dx|=1.3098e-01, |x|=1.0209e+04, |dx|/|x|=1.2830e-05
+info: Convergence criterion, component 1: |dx|=3.1814e+07, |x|=2.3490e+09, |dx|/|x|=1.3543e-02
+info: Convergence criterion, component 2: |dx|=2.5437e-04, |x|=1.1058e-02, |dx|/|x|=2.3002e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0182379 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00912588 s.
+info: [time] Applying Dirichlet BCs took 0.000996528 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0092041 s.
+info: Convergence criterion, component 0: |dx|=3.2698e-03, |x|=1.0209e+04, |dx|/|x|=3.2028e-07
+info: Convergence criterion, component 1: |dx|=1.6984e+06, |x|=2.3493e+09, |dx|/|x|=7.2296e-04
+info: Convergence criterion, component 2: |dx|=2.1335e-05, |x|=1.1043e-02, |dx|/|x|=1.9321e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0199268 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0106366 s.
+info: [time] Applying Dirichlet BCs took 0.000862926 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00870325 s.
+info: Convergence criterion, component 0: |dx|=2.1602e-04, |x|=1.0209e+04, |dx|/|x|=2.1159e-08
+info: Convergence criterion, component 1: |dx|=3.2314e+04, |x|=2.3493e+09, |dx|/|x|=1.3755e-05
+info: Convergence criterion, component 2: |dx|=8.3767e-07, |x|=1.1042e-02, |dx|/|x|=7.5860e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0207875 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0111507 s.
+info: [time] Applying Dirichlet BCs took 0.00086291 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00841571 s.
+info: Convergence criterion, component 0: |dx|=3.5802e-06, |x|=1.0209e+04, |dx|/|x|=3.5069e-10
+info: Convergence criterion, component 1: |dx|=4.3017e+02, |x|=2.3493e+09, |dx|/|x|=1.8311e-07
+info: Convergence criterion, component 2: |dx|=7.1223e-10, |x|=1.1042e-02, |dx|/|x|=6.4500e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0210266 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113201 s.
+info: [time] Applying Dirichlet BCs took 0.00109476 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00877832 s.
+info: Convergence criterion, component 0: |dx|=3.4950e-08, |x|=1.0209e+04, |dx|/|x|=3.4234e-12
+info: Convergence criterion, component 1: |dx|=9.7983e+00, |x|=2.3493e+09, |dx|/|x|=4.1708e-09
+info: Convergence criterion, component 2: |dx|=1.0635e-11, |x|=1.1042e-02, |dx|/|x|=9.6311e-10
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0217999 s.
+info: [time] Solving process #0 took 0.101816 s in time step #3
+info: [time] Time step #3 took 0.109528 s.
+info: === Time stepping at step #4 and time -463104 with step size 124416
+info: Number of threads: 6
+info: [time] Assembly took 0.00963221 s.
+info: [time] Applying Dirichlet BCs took 0.000884316 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00785137 s.
+info: Convergence criterion, component 0: |dx|=1.1852e-01, |x|=1.0209e+04, |dx|/|x|=1.1609e-05
+info: Convergence criterion, component 1: |dx|=2.7569e+07, |x|=2.3470e+09, |dx|/|x|=1.1746e-02
+info: Convergence criterion, component 2: |dx|=2.2469e-04, |x|=1.1176e-02, |dx|/|x|=2.0105e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.018973 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00952705 s.
+info: [time] Applying Dirichlet BCs took 0.00141003 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00920095 s.
+info: Convergence criterion, component 0: |dx|=2.7547e-03, |x|=1.0209e+04, |dx|/|x|=2.6983e-07
+info: Convergence criterion, component 1: |dx|=1.2605e+06, |x|=2.3472e+09, |dx|/|x|=5.3701e-04
+info: Convergence criterion, component 2: |dx|=1.5429e-05, |x|=1.1165e-02, |dx|/|x|=1.3819e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0207603 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0112511 s.
+info: [time] Applying Dirichlet BCs took 0.000823425 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00872226 s.
+info: Convergence criterion, component 0: |dx|=1.4583e-04, |x|=1.0209e+04, |dx|/|x|=1.4284e-08
+info: Convergence criterion, component 1: |dx|=1.8107e+04, |x|=2.3472e+09, |dx|/|x|=7.7141e-06
+info: Convergence criterion, component 2: |dx|=4.1177e-07, |x|=1.1164e-02, |dx|/|x|=3.6883e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0213861 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00855953 s.
+info: [time] Applying Dirichlet BCs took 0.000845916 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00837496 s.
+info: Convergence criterion, component 0: |dx|=2.0106e-06, |x|=1.0209e+04, |dx|/|x|=1.9694e-10
+info: Convergence criterion, component 1: |dx|=1.1206e+03, |x|=2.3472e+09, |dx|/|x|=4.7740e-07
+info: Convergence criterion, component 2: |dx|=3.5522e-08, |x|=1.1164e-02, |dx|/|x|=3.1817e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0183779 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00866091 s.
+info: [time] Applying Dirichlet BCs took 0.000787248 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00779187 s.
+info: Convergence criterion, component 0: |dx|=1.5523e-08, |x|=1.0209e+04, |dx|/|x|=1.5205e-12
+info: Convergence criterion, component 1: |dx|=5.2255e+00, |x|=2.3472e+09, |dx|/|x|=2.2263e-09
+info: Convergence criterion, component 2: |dx|=6.4487e-12, |x|=1.1164e-02, |dx|/|x|=5.7762e-10
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0178373 s.
+info: [time] Solving process #0 took 0.0973496 s in time step #4
+info: [time] Time step #4 took 0.104881 s.
+info: [time] Output of timestep 4 took 0.0207606 s.
+info: === Time stepping at step #5 and time -313804.80000000005 with step size 149299.19999999998
+info: Number of threads: 6
+info: [time] Assembly took 0.00976632 s.
+info: [time] Applying Dirichlet BCs took 0.00127541 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0151357 s.
+info: Convergence criterion, component 0: |dx|=1.1595e-01, |x|=1.0209e+04, |dx|/|x|=1.1357e-05
+info: Convergence criterion, component 1: |dx|=2.5396e+07, |x|=2.3449e+09, |dx|/|x|=1.0830e-02
+info: Convergence criterion, component 2: |dx|=2.1234e-04, |x|=1.1286e-02, |dx|/|x|=1.8814e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0268583 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00886321 s.
+info: [time] Applying Dirichlet BCs took 0.000932915 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0086297 s.
+info: Convergence criterion, component 0: |dx|=2.4548e-03, |x|=1.0209e+04, |dx|/|x|=2.4045e-07
+info: Convergence criterion, component 1: |dx|=1.0335e+06, |x|=2.3451e+09, |dx|/|x|=4.4073e-04
+info: Convergence criterion, component 2: |dx|=1.2439e-05, |x|=1.1277e-02, |dx|/|x|=1.1030e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0190282 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0118278 s.
+info: [time] Applying Dirichlet BCs took 0.00111973 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0101633 s.
+info: Convergence criterion, component 0: |dx|=1.1127e-04, |x|=1.0209e+04, |dx|/|x|=1.0899e-08
+info: Convergence criterion, component 1: |dx|=1.2537e+04, |x|=2.3451e+09, |dx|/|x|=5.3460e-06
+info: Convergence criterion, component 2: |dx|=2.5283e-07, |x|=1.1277e-02, |dx|/|x|=2.2420e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0237141 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0128329 s.
+info: [time] Applying Dirichlet BCs took 0.000772975 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.008382 s.
+info: Convergence criterion, component 0: |dx|=1.3279e-06, |x|=1.0209e+04, |dx|/|x|=1.3007e-10
+info: Convergence criterion, component 1: |dx|=1.7580e+02, |x|=2.3451e+09, |dx|/|x|=7.4963e-08
+info: Convergence criterion, component 2: |dx|=2.3091e-10, |x|=1.1277e-02, |dx|/|x|=2.0477e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0225763 s.
+info: [time] Solving process #0 took 0.0922131 s in time step #5
+info: [time] Time step #5 took 0.0996947 s.
+info: === Time stepping at step #6 and time -89856.000000000029 with step size 223948.79999999999
+info: Number of threads: 6
+info: [time] Assembly took 0.0113002 s.
+info: [time] Applying Dirichlet BCs took 0.000857604 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00866265 s.
+info: Convergence criterion, component 0: |dx|=1.4119e-01, |x|=1.0209e+04, |dx|/|x|=1.3830e-05
+info: Convergence criterion, component 1: |dx|=2.9298e+07, |x|=2.3422e+09, |dx|/|x|=1.2509e-02
+info: Convergence criterion, component 2: |dx|=2.5659e-04, |x|=1.1419e-02, |dx|/|x|=2.2470e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0214298 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0118015 s.
+info: [time] Applying Dirichlet BCs took 0.000790405 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00799927 s.
+info: Convergence criterion, component 0: |dx|=2.6745e-03, |x|=1.0209e+04, |dx|/|x|=2.6197e-07
+info: Convergence criterion, component 1: |dx|=1.2353e+06, |x|=2.3424e+09, |dx|/|x|=5.2736e-04
+info: Convergence criterion, component 2: |dx|=1.3389e-05, |x|=1.1409e-02, |dx|/|x|=1.1735e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0211804 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.011959 s.
+info: [time] Applying Dirichlet BCs took 0.000762045 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00835594 s.
+info: Convergence criterion, component 0: |dx|=1.2569e-04, |x|=1.0209e+04, |dx|/|x|=1.2311e-08
+info: Convergence criterion, component 1: |dx|=1.3806e+04, |x|=2.3424e+09, |dx|/|x|=5.8939e-06
+info: Convergence criterion, component 2: |dx|=2.1775e-07, |x|=1.1409e-02, |dx|/|x|=1.9085e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0216728 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0116503 s.
+info: [time] Applying Dirichlet BCs took 0.00090463 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00906987 s.
+info: Convergence criterion, component 0: |dx|=1.6505e-06, |x|=1.0209e+04, |dx|/|x|=1.6167e-10
+info: Convergence criterion, component 1: |dx|=2.2499e+02, |x|=2.3424e+09, |dx|/|x|=9.6052e-08
+info: Convergence criterion, component 2: |dx|=2.9819e-10, |x|=1.1409e-02, |dx|/|x|=2.6135e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.022219 s.
+info: [time] Solving process #0 took 0.0865166 s in time step #6
+info: [time] Time step #6 took 0.0941993 s.
+info: [time] Output of timestep 6 took 0.0208126 s.
+info: === Time stepping at step #7 and time 0 with step size 89856.000000000029
+info: Number of threads: 6
+info: [time] Assembly took 0.0097516 s.
+info: [time] Applying Dirichlet BCs took 0.000830311 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00842594 s.
+info: Convergence criterion, component 0: |dx|=5.0870e+01, |x|=1.0223e+04, |dx|/|x|=4.9760e-03
+info: Convergence criterion, component 1: |dx|=1.1800e+07, |x|=2.3410e+09, |dx|/|x|=5.0403e-03
+info: Convergence criterion, component 2: |dx|=9.8810e-05, |x|=1.1448e-02, |dx|/|x|=8.6309e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0196184 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00767521 s.
+info: [time] Applying Dirichlet BCs took 0.000856774 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00786465 s.
+info: Convergence criterion, component 0: |dx|=4.9735e-02, |x|=1.0223e+04, |dx|/|x|=4.8650e-06
+info: Convergence criterion, component 1: |dx|=1.8807e+06, |x|=2.3412e+09, |dx|/|x|=8.0330e-04
+info: Convergence criterion, component 2: |dx|=1.6990e-06, |x|=1.1447e-02, |dx|/|x|=1.4842e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0169883 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00871693 s.
+info: [time] Applying Dirichlet BCs took 0.00107672 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00865766 s.
+info: Convergence criterion, component 0: |dx|=2.6386e-03, |x|=1.0223e+04, |dx|/|x|=2.5811e-07
+info: Convergence criterion, component 1: |dx|=6.6890e+03, |x|=2.3412e+09, |dx|/|x|=2.8571e-06
+info: Convergence criterion, component 2: |dx|=9.9363e-09, |x|=1.1447e-02, |dx|/|x|=8.6800e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0190444 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00868658 s.
+info: [time] Applying Dirichlet BCs took 0.000959551 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00913846 s.
+info: Convergence criterion, component 0: |dx|=1.8704e-05, |x|=1.0223e+04, |dx|/|x|=1.8296e-09
+info: Convergence criterion, component 1: |dx|=1.2923e+02, |x|=2.3412e+09, |dx|/|x|=5.5201e-08
+info: Convergence criterion, component 2: |dx|=7.4609e-11, |x|=1.1447e-02, |dx|/|x|=6.5175e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0193971 s.
+info: [time] Solving process #0 took 0.0750847 s in time step #7
+info: [time] Time step #7 took 0.082661 s.
+info: [time] Output of timestep 7 took 0.0208435 s.
+info: === Time stepping at step #8 and time 134784.00000000006 with step size 134784.00000000006
+info: Number of threads: 6
+info: [time] Assembly took 0.00887129 s.
+info: [time] Applying Dirichlet BCs took 0.00084141 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00874628 s.
+info: Convergence criterion, component 0: |dx|=6.1929e+01, |x|=1.0244e+04, |dx|/|x|=6.0453e-03
+info: Convergence criterion, component 1: |dx|=1.7250e+07, |x|=2.3392e+09, |dx|/|x|=7.3741e-03
+info: Convergence criterion, component 2: |dx|=1.3270e-04, |x|=1.1485e-02, |dx|/|x|=1.1554e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0190591 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00715073 s.
+info: [time] Applying Dirichlet BCs took 0.000855329 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0079081 s.
+info: Convergence criterion, component 0: |dx|=1.5366e-01, |x|=1.0244e+04, |dx|/|x|=1.4999e-05
+info: Convergence criterion, component 1: |dx|=4.0553e+06, |x|=2.3396e+09, |dx|/|x|=1.7333e-03
+info: Convergence criterion, component 2: |dx|=4.3235e-06, |x|=1.1483e-02, |dx|/|x|=3.7652e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0165015 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0095509 s.
+info: [time] Applying Dirichlet BCs took 0.000765544 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00889159 s.
+info: Convergence criterion, component 0: |dx|=1.1535e-02, |x|=1.0244e+04, |dx|/|x|=1.1260e-06
+info: Convergence criterion, component 1: |dx|=2.5924e+04, |x|=2.3396e+09, |dx|/|x|=1.1080e-05
+info: Convergence criterion, component 2: |dx|=5.2750e-08, |x|=1.1483e-02, |dx|/|x|=4.5939e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0198031 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.010223 s.
+info: [time] Applying Dirichlet BCs took 0.00089026 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00806264 s.
+info: Convergence criterion, component 0: |dx|=1.2922e-04, |x|=1.0244e+04, |dx|/|x|=1.2613e-08
+info: Convergence criterion, component 1: |dx|=1.0560e+03, |x|=2.3396e+09, |dx|/|x|=4.5134e-07
+info: Convergence criterion, component 2: |dx|=9.5112e-10, |x|=1.1483e-02, |dx|/|x|=8.2831e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0197758 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0105421 s.
+info: [time] Applying Dirichlet BCs took 0.000812269 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00805019 s.
+info: Convergence criterion, component 0: |dx|=3.1157e-06, |x|=1.0244e+04, |dx|/|x|=3.0414e-10
+info: Convergence criterion, component 1: |dx|=2.2217e+01, |x|=2.3396e+09, |dx|/|x|=9.4959e-09
+info: Convergence criterion, component 2: |dx|=1.0830e-11, |x|=1.1483e-02, |dx|/|x|=9.4311e-10
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0199954 s.
+info: [time] Solving process #0 took 0.0951718 s in time step #8
+info: [time] Time step #8 took 0.102726 s.
+info: [time] Output of timestep 8 took 0.020771 s.
+info: === Time stepping at step #9 and time 296524.80000000016 with step size 161740.80000000008
+info: Number of threads: 6
+info: [time] Assembly took 0.0107741 s.
+info: [time] Applying Dirichlet BCs took 0.000873453 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00836227 s.
+info: Convergence criterion, component 0: |dx|=6.2173e+01, |x|=1.0269e+04, |dx|/|x|=6.0542e-03
+info: Convergence criterion, component 1: |dx|=2.1202e+07, |x|=2.3380e+09, |dx|/|x|=9.0684e-03
+info: Convergence criterion, component 2: |dx|=1.3405e-04, |x|=1.1489e-02, |dx|/|x|=1.1667e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0205857 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0109359 s.
+info: [time] Applying Dirichlet BCs took 0.000784627 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00753806 s.
+info: Convergence criterion, component 0: |dx|=2.5553e-01, |x|=1.0269e+04, |dx|/|x|=2.4882e-05
+info: Convergence criterion, component 1: |dx|=5.4053e+06, |x|=2.3387e+09, |dx|/|x|=2.3113e-03
+info: Convergence criterion, component 2: |dx|=6.4799e-06, |x|=1.1487e-02, |dx|/|x|=5.6409e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0198643 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0107555 s.
+info: [time] Applying Dirichlet BCs took 0.000902581 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00829586 s.
+info: Convergence criterion, component 0: |dx|=2.1806e-02, |x|=1.0269e+04, |dx|/|x|=2.1234e-06
+info: Convergence criterion, component 1: |dx|=4.8859e+04, |x|=2.3387e+09, |dx|/|x|=2.0892e-05
+info: Convergence criterion, component 2: |dx|=1.0207e-07, |x|=1.1487e-02, |dx|/|x|=8.8856e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0205465 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113658 s.
+info: [time] Applying Dirichlet BCs took 0.000802417 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00833718 s.
+info: Convergence criterion, component 0: |dx|=2.9721e-04, |x|=1.0269e+04, |dx|/|x|=2.8941e-08
+info: Convergence criterion, component 1: |dx|=2.6180e+03, |x|=2.3387e+09, |dx|/|x|=1.1195e-06
+info: Convergence criterion, component 2: |dx|=3.0517e-09, |x|=1.1487e-02, |dx|/|x|=2.6566e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0211135 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0115113 s.
+info: [time] Applying Dirichlet BCs took 0.00102614 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00863096 s.
+info: Convergence criterion, component 0: |dx|=1.1050e-05, |x|=1.0269e+04, |dx|/|x|=1.0760e-09
+info: Convergence criterion, component 1: |dx|=7.8853e+01, |x|=2.3387e+09, |dx|/|x|=3.3717e-08
+info: Convergence criterion, component 2: |dx|=5.1227e-11, |x|=1.1487e-02, |dx|/|x|=4.4594e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0217577 s.
+info: [time] Solving process #0 took 0.103903 s in time step #9
+info: [time] Time step #9 took 0.111554 s.
+info: === Time stepping at step #10 and time 490613.76000000024 with step size 194088.96000000008
+info: Number of threads: 6
+info: [time] Assembly took 0.0107013 s.
+info: [time] Applying Dirichlet BCs took 0.000882135 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00828775 s.
+info: Convergence criterion, component 0: |dx|=6.2947e+01, |x|=1.0298e+04, |dx|/|x|=6.1123e-03
+info: Convergence criterion, component 1: |dx|=2.6768e+07, |x|=2.3379e+09, |dx|/|x|=1.1449e-02
+info: Convergence criterion, component 2: |dx|=1.4179e-04, |x|=1.1443e-02, |dx|/|x|=1.2391e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0204798 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0110181 s.
+info: [time] Applying Dirichlet BCs took 0.00077781 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00794965 s.
+info: Convergence criterion, component 0: |dx|=3.7641e-01, |x|=1.0298e+04, |dx|/|x|=3.6550e-05
+info: Convergence criterion, component 1: |dx|=6.9777e+06, |x|=2.3390e+09, |dx|/|x|=2.9831e-03
+info: Convergence criterion, component 2: |dx|=9.1989e-06, |x|=1.1441e-02, |dx|/|x|=8.0406e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0203409 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113636 s.
+info: [time] Applying Dirichlet BCs took 0.000849095 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00870019 s.
+info: Convergence criterion, component 0: |dx|=3.5658e-02, |x|=1.0298e+04, |dx|/|x|=3.4625e-06
+info: Convergence criterion, component 1: |dx|=8.6181e+04, |x|=2.3391e+09, |dx|/|x|=3.6844e-05
+info: Convergence criterion, component 2: |dx|=1.6749e-07, |x|=1.1441e-02, |dx|/|x|=1.4640e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0215068 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0124489 s.
+info: [time] Applying Dirichlet BCs took 0.000923474 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00961373 s.
+info: Convergence criterion, component 0: |dx|=5.9847e-04, |x|=1.0298e+04, |dx|/|x|=5.8114e-08
+info: Convergence criterion, component 1: |dx|=5.1741e+03, |x|=2.3391e+09, |dx|/|x|=2.2120e-06
+info: Convergence criterion, component 2: |dx|=7.3380e-09, |x|=1.1441e-02, |dx|/|x|=6.4140e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0236108 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0118678 s.
+info: [time] Applying Dirichlet BCs took 0.000878817 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0081845 s.
+info: Convergence criterion, component 0: |dx|=2.8112e-05, |x|=1.0298e+04, |dx|/|x|=2.7297e-09
+info: Convergence criterion, component 1: |dx|=2.0726e+02, |x|=2.3391e+09, |dx|/|x|=8.8609e-08
+info: Convergence criterion, component 2: |dx|=1.7009e-10, |x|=1.1441e-02, |dx|/|x|=1.4868e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0215174 s.
+info: [time] Solving process #0 took 0.10747 s in time step #10
+info: [time] Time step #10 took 0.115106 s.
+info: [time] Output of timestep 10 took 0.0207734 s.
+info: === Time stepping at step #11 and time 723520.51200000034 with step size 232906.75200000009
+info: Number of threads: 6
+info: [time] Assembly took 0.0108428 s.
+info: [time] Applying Dirichlet BCs took 0.000916739 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00881597 s.
+info: Convergence criterion, component 0: |dx|=6.3508e+01, |x|=1.0331e+04, |dx|/|x|=6.1474e-03
+info: Convergence criterion, component 1: |dx|=3.4199e+07, |x|=2.3401e+09, |dx|/|x|=1.4614e-02
+info: Convergence criterion, component 2: |dx|=1.7304e-04, |x|=1.1329e-02, |dx|/|x|=1.5275e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0211831 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0103925 s.
+info: [time] Applying Dirichlet BCs took 0.000957568 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00786947 s.
+info: Convergence criterion, component 0: |dx|=5.1443e-01, |x|=1.0331e+04, |dx|/|x|=4.9796e-05
+info: Convergence criterion, component 1: |dx|=8.7955e+06, |x|=2.3419e+09, |dx|/|x|=3.7557e-03
+info: Convergence criterion, component 2: |dx|=1.2472e-05, |x|=1.1326e-02, |dx|/|x|=1.1011e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0198056 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00959901 s.
+info: [time] Applying Dirichlet BCs took 0.000806498 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00772635 s.
+info: Convergence criterion, component 0: |dx|=5.3736e-02, |x|=1.0331e+04, |dx|/|x|=5.2015e-06
+info: Convergence criterion, component 1: |dx|=1.4092e+05, |x|=2.3419e+09, |dx|/|x|=6.0175e-05
+info: Convergence criterion, component 2: |dx|=2.7426e-07, |x|=1.1326e-02, |dx|/|x|=2.4215e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0187195 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00867669 s.
+info: [time] Applying Dirichlet BCs took 0.000854888 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0081212 s.
+info: Convergence criterion, component 0: |dx|=1.0892e-03, |x|=1.0331e+04, |dx|/|x|=1.0543e-07
+info: Convergence criterion, component 1: |dx|=8.9779e+03, |x|=2.3419e+09, |dx|/|x|=3.8335e-06
+info: Convergence criterion, component 2: |dx|=1.5097e-08, |x|=1.1326e-02, |dx|/|x|=1.3329e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0182422 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00873325 s.
+info: [time] Applying Dirichlet BCs took 0.000941437 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00807437 s.
+info: Convergence criterion, component 0: |dx|=5.9757e-05, |x|=1.0331e+04, |dx|/|x|=5.7843e-09
+info: Convergence criterion, component 1: |dx|=4.5573e+02, |x|=2.3419e+09, |dx|/|x|=1.9460e-07
+info: Convergence criterion, component 2: |dx|=4.5327e-10, |x|=1.1326e-02, |dx|/|x|=4.0020e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.018333 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00823356 s.
+info: [time] Applying Dirichlet BCs took 0.000874837 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00777456 s.
+info: Convergence criterion, component 0: |dx|=2.2132e-06, |x|=1.0331e+04, |dx|/|x|=2.1423e-10
+info: Convergence criterion, component 1: |dx|=1.7524e+01, |x|=2.3419e+09, |dx|/|x|=7.4828e-09
+info: Convergence criterion, component 2: |dx|=2.4678e-11, |x|=1.1326e-02, |dx|/|x|=2.1789e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0174727 s.
+info: [time] Solving process #0 took 0.113793 s in time step #11
+info: [time] Time step #11 took 0.12146 s.
+info: === Time stepping at step #12 and time 1003008.6144000004 with step size 279488.10240000009
+info: Number of threads: 6
+info: [time] Assembly took 0.00867862 s.
+info: [time] Applying Dirichlet BCs took 0.000811749 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00893866 s.
+info: Convergence criterion, component 0: |dx|=6.3404e+01, |x|=1.0366e+04, |dx|/|x|=6.1162e-03
+info: Convergence criterion, component 1: |dx|=4.3703e+07, |x|=2.3461e+09, |dx|/|x|=1.8628e-02
+info: Convergence criterion, component 2: |dx|=2.3225e-04, |x|=1.1137e-02, |dx|/|x|=2.0855e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0190642 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00794719 s.
+info: [time] Applying Dirichlet BCs took 0.000891767 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00775971 s.
+info: Convergence criterion, component 0: |dx|=6.6056e-01, |x|=1.0366e+04, |dx|/|x|=6.3721e-05
+info: Convergence criterion, component 1: |dx|=1.0804e+07, |x|=2.3488e+09, |dx|/|x|=4.5996e-03
+info: Convergence criterion, component 2: |dx|=1.6197e-05, |x|=1.1133e-02, |dx|/|x|=1.4548e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0171711 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0085866 s.
+info: [time] Applying Dirichlet BCs took 0.000879918 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00792757 s.
+info: Convergence criterion, component 0: |dx|=7.6143e-02, |x|=1.0366e+04, |dx|/|x|=7.3452e-06
+info: Convergence criterion, component 1: |dx|=2.1423e+05, |x|=2.3488e+09, |dx|/|x|=9.1206e-05
+info: Convergence criterion, component 2: |dx|=4.2810e-07, |x|=1.1133e-02, |dx|/|x|=3.8453e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0179711 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00863549 s.
+info: [time] Applying Dirichlet BCs took 0.000851209 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00761305 s.
+info: Convergence criterion, component 0: |dx|=1.8071e-03, |x|=1.0366e+04, |dx|/|x|=1.7432e-07
+info: Convergence criterion, component 1: |dx|=1.4144e+04, |x|=2.3488e+09, |dx|/|x|=6.0216e-06
+info: Convergence criterion, component 2: |dx|=2.7848e-08, |x|=1.1133e-02, |dx|/|x|=2.5014e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0177008 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00786377 s.
+info: [time] Applying Dirichlet BCs took 0.000813943 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00808205 s.
+info: Convergence criterion, component 0: |dx|=1.1202e-04, |x|=1.0366e+04, |dx|/|x|=1.0806e-08
+info: Convergence criterion, component 1: |dx|=8.7724e+02, |x|=2.3488e+09, |dx|/|x|=3.7348e-07
+info: Convergence criterion, component 2: |dx|=1.0239e-09, |x|=1.1133e-02, |dx|/|x|=9.1972e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0173662 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00781886 s.
+info: [time] Applying Dirichlet BCs took 0.000929998 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00803707 s.
+info: Convergence criterion, component 0: |dx|=5.0279e-06, |x|=1.0366e+04, |dx|/|x|=4.8501e-10
+info: Convergence criterion, component 1: |dx|=3.7459e+01, |x|=2.3488e+09, |dx|/|x|=1.5948e-08
+info: Convergence criterion, component 2: |dx|=6.1453e-11, |x|=1.1133e-02, |dx|/|x|=5.5198e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0173779 s.
+info: [time] Solving process #0 took 0.10667 s in time step #12
+info: [time] Time step #12 took 0.114295 s.
+info: [time] Output of timestep 12 took 0.0207649 s.
+info: === Time stepping at step #13 and time 1338394.3372800006 with step size 335385.72288000007
+info: Number of threads: 6
+info: [time] Assembly took 0.00808303 s.
+info: [time] Applying Dirichlet BCs took 0.000943198 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00787149 s.
+info: Convergence criterion, component 0: |dx|=6.2415e+01, |x|=1.0405e+04, |dx|/|x|=5.9988e-03
+info: Convergence criterion, component 1: |dx|=5.5393e+07, |x|=2.3578e+09, |dx|/|x|=2.3493e-02
+info: Convergence criterion, component 2: |dx|=3.1222e-04, |x|=1.0862e-02, |dx|/|x|=2.8743e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0175109 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00841154 s.
+info: [time] Applying Dirichlet BCs took 0.00113781 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0134639 s.
+info: Convergence criterion, component 0: |dx|=8.0054e-01, |x|=1.0404e+04, |dx|/|x|=7.6943e-05
+info: Convergence criterion, component 1: |dx|=1.2878e+07, |x|=2.3618e+09, |dx|/|x|=5.4527e-03
+info: Convergence criterion, component 2: |dx|=2.0149e-05, |x|=1.0859e-02, |dx|/|x|=1.8556e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.024017 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0106641 s.
+info: [time] Applying Dirichlet BCs took 0.00112659 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00885089 s.
+info: Convergence criterion, component 0: |dx|=1.0209e-01, |x|=1.0404e+04, |dx|/|x|=9.8123e-06
+info: Convergence criterion, component 1: |dx|=3.0397e+05, |x|=2.3618e+09, |dx|/|x|=1.2870e-04
+info: Convergence criterion, component 2: |dx|=6.3153e-07, |x|=1.0859e-02, |dx|/|x|=5.8160e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0212469 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0109042 s.
+info: [time] Applying Dirichlet BCs took 0.000992009 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00947384 s.
+info: Convergence criterion, component 0: |dx|=2.7445e-03, |x|=1.0404e+04, |dx|/|x|=2.6378e-07
+info: Convergence criterion, component 1: |dx|=2.0492e+04, |x|=2.3618e+09, |dx|/|x|=8.6764e-06
+info: Convergence criterion, component 2: |dx|=4.6919e-08, |x|=1.0859e-02, |dx|/|x|=4.3209e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.021972 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0098182 s.
+info: [time] Applying Dirichlet BCs took 0.00112153 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00953817 s.
+info: Convergence criterion, component 0: |dx|=1.8908e-04, |x|=1.0404e+04, |dx|/|x|=1.8173e-08
+info: Convergence criterion, component 1: |dx|=1.5076e+03, |x|=2.3618e+09, |dx|/|x|=6.3832e-07
+info: Convergence criterion, component 2: |dx|=2.0141e-09, |x|=1.0859e-02, |dx|/|x|=1.8548e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0210798 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0099305 s.
+info: [time] Applying Dirichlet BCs took 0.000937235 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00992612 s.
+info: Convergence criterion, component 0: |dx|=9.8480e-06, |x|=1.0404e+04, |dx|/|x|=9.4652e-10
+info: Convergence criterion, component 1: |dx|=7.0415e+01, |x|=2.3618e+09, |dx|/|x|=2.9814e-08
+info: Convergence criterion, component 2: |dx|=1.3317e-10, |x|=1.0859e-02, |dx|/|x|=1.2264e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0214079 s.
+info: [time] Solving process #0 took 0.127271 s in time step #13
+info: [time] Time step #13 took 0.134911 s.
+info: === Time stepping at step #14 and time 1740857.2047360006 with step size 402462.86745600007
+info: Number of threads: 6
+info: [time] Assembly took 0.00963758 s.
+info: [time] Applying Dirichlet BCs took 0.000964201 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0092515 s.
+info: Convergence criterion, component 0: |dx|=6.0531e+01, |x|=1.0444e+04, |dx|/|x|=5.7956e-03
+info: Convergence criterion, component 1: |dx|=6.9207e+07, |x|=2.3778e+09, |dx|/|x|=2.9105e-02
+info: Convergence criterion, component 2: |dx|=4.0490e-04, |x|=1.0510e-02, |dx|/|x|=3.8526e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0204485 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0105926 s.
+info: [time] Applying Dirichlet BCs took 0.00124178 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.010028 s.
+info: Convergence criterion, component 0: |dx|=9.2132e-01, |x|=1.0444e+04, |dx|/|x|=8.8214e-05
+info: Convergence criterion, component 1: |dx|=1.4852e+07, |x|=2.3834e+09, |dx|/|x|=6.2316e-03
+info: Convergence criterion, component 2: |dx|=2.4066e-05, |x|=1.0505e-02, |dx|/|x|=2.2908e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0224967 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0102568 s.
+info: [time] Applying Dirichlet BCs took 0.000940354 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.007888 s.
+info: Convergence criterion, component 0: |dx|=1.2985e-01, |x|=1.0444e+04, |dx|/|x|=1.2433e-05
+info: Convergence criterion, component 1: |dx|=4.0431e+05, |x|=2.3834e+09, |dx|/|x|=1.6964e-04
+info: Convergence criterion, component 2: |dx|=8.7617e-07, |x|=1.0505e-02, |dx|/|x|=8.3404e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.019714 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00865284 s.
+info: [time] Applying Dirichlet BCs took 0.000928909 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00940441 s.
+info: Convergence criterion, component 0: |dx|=3.8320e-03, |x|=1.0444e+04, |dx|/|x|=3.6690e-07
+info: Convergence criterion, component 1: |dx|=2.7462e+04, |x|=2.3834e+09, |dx|/|x|=1.1522e-05
+info: Convergence criterion, component 2: |dx|=7.2763e-08, |x|=1.0505e-02, |dx|/|x|=6.9265e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0200134 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113677 s.
+info: [time] Applying Dirichlet BCs took 0.00121456 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.015684 s.
+info: Convergence criterion, component 0: |dx|=2.8978e-04, |x|=1.0444e+04, |dx|/|x|=2.7746e-08
+info: Convergence criterion, component 1: |dx|=2.3366e+03, |x|=2.3834e+09, |dx|/|x|=9.8040e-07
+info: Convergence criterion, component 2: |dx|=3.5070e-09, |x|=1.0505e-02, |dx|/|x|=3.3384e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0292309 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00900915 s.
+info: [time] Applying Dirichlet BCs took 0.00123905 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0124492 s.
+info: Convergence criterion, component 0: |dx|=1.6991e-05, |x|=1.0444e+04, |dx|/|x|=1.6268e-09
+info: Convergence criterion, component 1: |dx|=1.1815e+02, |x|=2.3834e+09, |dx|/|x|=4.9572e-08
+info: Convergence criterion, component 2: |dx|=2.5434e-10, |x|=1.0505e-02, |dx|/|x|=2.4211e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0237078 s.
+info: [time] Solving process #0 took 0.135633 s in time step #14
+info: [time] Time step #14 took 0.143643 s.
+info: [time] Output of timestep 14 took 0.0216965 s.
+info: === Time stepping at step #15 and time 2223812.6456832006 with step size 482955.44094720006
+info: Number of threads: 6
+info: [time] Assembly took 0.00906927 s.
+info: [time] Applying Dirichlet BCs took 0.00106841 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00845979 s.
+info: Convergence criterion, component 0: |dx|=5.7920e+01, |x|=1.0485e+04, |dx|/|x|=5.5242e-03
+info: Convergence criterion, component 1: |dx|=8.4865e+07, |x|=2.4089e+09, |dx|/|x|=3.5230e-02
+info: Convergence criterion, component 2: |dx|=5.0396e-04, |x|=1.0088e-02, |dx|/|x|=4.9954e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.019196 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00842192 s.
+info: [time] Applying Dirichlet BCs took 0.000806411 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.008934 s.
+info: Convergence criterion, component 0: |dx|=1.0196e+00, |x|=1.0485e+04, |dx|/|x|=9.7246e-05
+info: Convergence criterion, component 1: |dx|=1.6569e+07, |x|=2.4163e+09, |dx|/|x|=6.8570e-03
+info: Convergence criterion, component 2: |dx|=2.7821e-05, |x|=1.0083e-02, |dx|/|x|=2.7591e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0187496 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00877708 s.
+info: [time] Applying Dirichlet BCs took 0.00110436 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0170961 s.
+info: Convergence criterion, component 0: |dx|=1.5718e-01, |x|=1.0485e+04, |dx|/|x|=1.4992e-05
+info: Convergence criterion, component 1: |dx|=5.0724e+05, |x|=2.4162e+09, |dx|/|x|=2.0993e-04
+info: Convergence criterion, component 2: |dx|=1.1466e-06, |x|=1.0083e-02, |dx|/|x|=1.1371e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0279616 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0112831 s.
+info: [time] Applying Dirichlet BCs took 0.00130962 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0154625 s.
+info: Convergence criterion, component 0: |dx|=4.9575e-03, |x|=1.0485e+04, |dx|/|x|=4.7284e-07
+info: Convergence criterion, component 1: |dx|=3.4236e+04, |x|=2.4162e+09, |dx|/|x|=1.4169e-05
+info: Convergence criterion, component 2: |dx|=1.0444e-07, |x|=1.0083e-02, |dx|/|x|=1.0357e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0290256 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0101493 s.
+info: [time] Applying Dirichlet BCs took 0.00133192 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0152916 s.
+info: Convergence criterion, component 0: |dx|=4.0548e-04, |x|=1.0485e+04, |dx|/|x|=3.8674e-08
+info: Convergence criterion, component 1: |dx|=3.2928e+03, |x|=2.4162e+09, |dx|/|x|=1.3628e-06
+info: Convergence criterion, component 2: |dx|=5.4884e-09, |x|=1.0083e-02, |dx|/|x|=5.4430e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0278027 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0111075 s.
+info: [time] Applying Dirichlet BCs took 0.000844628 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00834063 s.
+info: Convergence criterion, component 0: |dx|=2.6195e-05, |x|=1.0485e+04, |dx|/|x|=2.4984e-09
+info: Convergence criterion, component 1: |dx|=1.7897e+02, |x|=2.4162e+09, |dx|/|x|=7.4071e-08
+info: Convergence criterion, component 2: |dx|=4.3161e-10, |x|=1.0083e-02, |dx|/|x|=4.2804e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0210365 s.
+info: [time] Solving process #0 took 0.143813 s in time step #15
+info: [time] Time step #15 took 0.152809 s.
+info: === Time stepping at step #16 and time 2803359.1748198406 with step size 579546.52913664002
+info: Number of threads: 6
+info: [time] Assembly took 0.0119371 s.
+info: [time] Applying Dirichlet BCs took 0.00088149 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00914015 s.
+info: Convergence criterion, component 0: |dx|=5.4873e+01, |x|=1.0525e+04, |dx|/|x|=5.2134e-03
+info: Convergence criterion, component 1: |dx|=1.0190e+08, |x|=2.4539e+09, |dx|/|x|=4.1524e-02
+info: Convergence criterion, component 2: |dx|=6.0471e-04, |x|=9.6162e-03, |dx|/|x|=6.2885e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0225456 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113328 s.
+info: [time] Applying Dirichlet BCs took 0.000896955 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00811652 s.
+info: Convergence criterion, component 0: |dx|=1.1064e+00, |x|=1.0525e+04, |dx|/|x|=1.0512e-04
+info: Convergence criterion, component 1: |dx|=1.7937e+07, |x|=2.4632e+09, |dx|/|x|=7.2820e-03
+info: Convergence criterion, component 2: |dx|=3.1687e-05, |x|=9.6109e-03, |dx|/|x|=3.2970e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0209225 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0112539 s.
+info: [time] Applying Dirichlet BCs took 0.000766379 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00871904 s.
+info: Convergence criterion, component 0: |dx|=1.8217e-01, |x|=1.0525e+04, |dx|/|x|=1.7308e-05
+info: Convergence criterion, component 1: |dx|=6.0577e+05, |x|=2.4631e+09, |dx|/|x|=2.4594e-04
+info: Convergence criterion, component 2: |dx|=1.4334e-06, |x|=9.6108e-03, |dx|/|x|=1.4915e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0213214 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0125708 s.
+info: [time] Applying Dirichlet BCs took 0.00124182 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0113292 s.
+info: Convergence criterion, component 0: |dx|=6.0223e-03, |x|=1.0525e+04, |dx|/|x|=5.7218e-07
+info: Convergence criterion, component 1: |dx|=4.0121e+04, |x|=2.4631e+09, |dx|/|x|=1.6289e-05
+info: Convergence criterion, component 2: |dx|=1.3973e-07, |x|=9.6108e-03, |dx|/|x|=1.4538e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0261771 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0114074 s.
+info: [time] Applying Dirichlet BCs took 0.000910106 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00919317 s.
+info: Convergence criterion, component 0: |dx|=5.2182e-04, |x|=1.0525e+04, |dx|/|x|=4.9578e-08
+info: Convergence criterion, component 1: |dx|=4.2622e+03, |x|=2.4631e+09, |dx|/|x|=1.7305e-06
+info: Convergence criterion, component 2: |dx|=7.8619e-09, |x|=9.6108e-03, |dx|/|x|=8.1803e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0221219 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0080799 s.
+info: [time] Applying Dirichlet BCs took 0.00100031 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00825163 s.
+info: Convergence criterion, component 0: |dx|=3.6612e-05, |x|=1.0525e+04, |dx|/|x|=3.4785e-09
+info: Convergence criterion, component 1: |dx|=2.4810e+02, |x|=2.4631e+09, |dx|/|x|=1.0073e-07
+info: Convergence criterion, component 2: |dx|=6.5750e-10, |x|=9.6108e-03, |dx|/|x|=6.8412e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0179381 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00783416 s.
+info: [time] Applying Dirichlet BCs took 0.00099765 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00846515 s.
+info: Convergence criterion, component 0: |dx|=2.5362e-06, |x|=1.0525e+04, |dx|/|x|=2.4096e-10
+info: Convergence criterion, component 1: |dx|=2.4501e+01, |x|=2.4631e+09, |dx|/|x|=9.9475e-09
+info: Convergence criterion, component 2: |dx|=4.8813e-11, |x|=9.6108e-03, |dx|/|x|=5.0790e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0178911 s.
+info: [time] Solving process #0 took 0.148937 s in time step #16
+info: [time] Time step #16 took 0.156685 s.
+info: [time] Output of timestep 16 took 0.0208392 s.
+info: === Time stepping at step #17 and time 3498815.0097838086 with step size 695455.83496396802
+info: Number of threads: 6
+info: [time] Assembly took 0.00786406 s.
+info: [time] Applying Dirichlet BCs took 0.00103838 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00852731 s.
+info: Convergence criterion, component 0: |dx|=5.1732e+01, |x|=1.0566e+04, |dx|/|x|=4.8963e-03
+info: Convergence criterion, component 1: |dx|=1.1972e+08, |x|=2.5154e+09, |dx|/|x|=4.7594e-02
+info: Convergence criterion, component 2: |dx|=7.0374e-04, |x|=9.1176e-03, |dx|/|x|=7.7185e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0180238 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00781087 s.
+info: [time] Applying Dirichlet BCs took 0.00102651 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00887407 s.
+info: Convergence criterion, component 0: |dx|=1.2013e+00, |x|=1.0565e+04, |dx|/|x|=1.1371e-04
+info: Convergence criterion, component 1: |dx|=1.8965e+07, |x|=2.5267e+09, |dx|/|x|=7.5060e-03
+info: Convergence criterion, component 2: |dx|=3.6240e-05, |x|=9.1123e-03, |dx|/|x|=3.9770e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0183401 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0075924 s.
+info: [time] Applying Dirichlet BCs took 0.000871473 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00813691 s.
+info: Convergence criterion, component 0: |dx|=2.0395e-01, |x|=1.0565e+04, |dx|/|x|=1.9304e-05
+info: Convergence criterion, component 1: |dx|=6.9680e+05, |x|=2.5264e+09, |dx|/|x|=2.7580e-04
+info: Convergence criterion, component 2: |dx|=1.7488e-06, |x|=9.1122e-03, |dx|/|x|=1.9191e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0172027 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00768493 s.
+info: [time] Applying Dirichlet BCs took 0.000966451 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00791853 s.
+info: Convergence criterion, component 0: |dx|=6.9964e-03, |x|=1.0565e+04, |dx|/|x|=6.6220e-07
+info: Convergence criterion, component 1: |dx|=4.4910e+04, |x|=2.5264e+09, |dx|/|x|=1.7776e-05
+info: Convergence criterion, component 2: |dx|=1.7590e-07, |x|=9.1123e-03, |dx|/|x|=1.9303e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0171772 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00769053 s.
+info: [time] Applying Dirichlet BCs took 0.000886692 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00796002 s.
+info: Convergence criterion, component 0: |dx|=6.2315e-04, |x|=1.0565e+04, |dx|/|x|=5.8981e-08
+info: Convergence criterion, component 1: |dx|=5.1323e+03, |x|=2.5264e+09, |dx|/|x|=2.0314e-06
+info: Convergence criterion, component 2: |dx|=1.0521e-08, |x|=9.1123e-03, |dx|/|x|=1.1546e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0171302 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00771149 s.
+info: [time] Applying Dirichlet BCs took 0.000797841 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00859326 s.
+info: Convergence criterion, component 0: |dx|=4.7139e-05, |x|=1.0565e+04, |dx|/|x|=4.4616e-09
+info: Convergence criterion, component 1: |dx|=3.1964e+02, |x|=2.5264e+09, |dx|/|x|=1.2652e-07
+info: Convergence criterion, component 2: |dx|=9.1113e-10, |x|=9.1123e-03, |dx|/|x|=9.9989e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0177047 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00784083 s.
+info: [time] Applying Dirichlet BCs took 0.00088428 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00854832 s.
+info: Convergence criterion, component 0: |dx|=3.3653e-06, |x|=1.0565e+04, |dx|/|x|=3.1852e-10
+info: Convergence criterion, component 1: |dx|=3.2208e+01, |x|=2.5264e+09, |dx|/|x|=1.2748e-08
+info: Convergence criterion, component 2: |dx|=7.2395e-11, |x|=9.1123e-03, |dx|/|x|=7.9448e-09
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0178788 s.
+info: [time] Solving process #0 took 0.123497 s in time step #17
+info: [time] Time step #17 took 0.131273 s.
+info: === Time stepping at step #18 and time 4333362.01174057 with step size 834547.00195676158
+info: Number of threads: 6
+info: [time] Assembly took 0.00928344 s.
+info: [time] Applying Dirichlet BCs took 0.00103434 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00906362 s.
+info: Convergence criterion, component 0: |dx|=4.8806e+01, |x|=1.0605e+04, |dx|/|x|=4.6021e-03
+info: Convergence criterion, component 1: |dx|=1.3771e+08, |x|=2.5955e+09, |dx|/|x|=5.3057e-02
+info: Convergence criterion, component 2: |dx|=8.0079e-04, |x|=8.6246e-03, |dx|/|x|=9.2849e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0199812 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0109427 s.
+info: [time] Applying Dirichlet BCs took 0.00092433 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00833079 s.
+info: Convergence criterion, component 0: |dx|=1.3173e+00, |x|=1.0605e+04, |dx|/|x|=1.2422e-04
+info: Convergence criterion, component 1: |dx|=1.9741e+07, |x|=2.6087e+09, |dx|/|x|=7.5673e-03
+info: Convergence criterion, component 2: |dx|=4.2579e-05, |x|=8.6199e-03, |dx|/|x|=4.9396e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0208077 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0119184 s.
+info: [time] Applying Dirichlet BCs took 0.000940351 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00911471 s.
+info: Convergence criterion, component 0: |dx|=2.2292e-01, |x|=1.0605e+04, |dx|/|x|=2.1020e-05
+info: Convergence criterion, component 1: |dx|=7.8104e+05, |x|=2.6084e+09, |dx|/|x|=2.9943e-04
+info: Convergence criterion, component 2: |dx|=2.1320e-06, |x|=8.6199e-03, |dx|/|x|=2.4734e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0225753 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00972569 s.
+info: [time] Applying Dirichlet BCs took 0.000872918 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00756299 s.
+info: Convergence criterion, component 0: |dx|=7.9238e-03, |x|=1.0605e+04, |dx|/|x|=7.4719e-07
+info: Convergence criterion, component 1: |dx|=4.8729e+04, |x|=2.6084e+09, |dx|/|x|=1.8681e-05
+info: Convergence criterion, component 2: |dx|=2.1006e-07, |x|=8.6199e-03, |dx|/|x|=2.4368e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0187578 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0102757 s.
+info: [time] Applying Dirichlet BCs took 0.000985122 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00870661 s.
+info: Convergence criterion, component 0: |dx|=6.9526e-04, |x|=1.0605e+04, |dx|/|x|=6.5561e-08
+info: Convergence criterion, component 1: |dx|=5.8181e+03, |x|=2.6084e+09, |dx|/|x|=2.2305e-06
+info: Convergence criterion, component 2: |dx|=1.3414e-08, |x|=8.6199e-03, |dx|/|x|=1.5561e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0205728 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00845646 s.
+info: [time] Applying Dirichlet BCs took 0.00105728 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00850574 s.
+info: Convergence criterion, component 0: |dx|=5.6684e-05, |x|=1.0605e+04, |dx|/|x|=5.3451e-09
+info: Convergence criterion, component 1: |dx|=3.8594e+02, |x|=2.6084e+09, |dx|/|x|=1.4796e-07
+info: Convergence criterion, component 2: |dx|=1.1593e-09, |x|=8.6199e-03, |dx|/|x|=1.3450e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0186116 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0121636 s.
+info: [time] Applying Dirichlet BCs took 0.000845513 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00850518 s.
+info: Convergence criterion, component 0: |dx|=4.0853e-06, |x|=1.0605e+04, |dx|/|x|=3.8523e-10
+info: Convergence criterion, component 1: |dx|=3.8649e+01, |x|=2.6084e+09, |dx|/|x|=1.4817e-08
+info: Convergence criterion, component 2: |dx|=9.8284e-11, |x|=8.6199e-03, |dx|/|x|=1.1402e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0221168 s.
+info: [time] Solving process #0 took 0.143441 s in time step #18
+info: [time] Time step #18 took 0.151233 s.
+info: [time] Output of timestep 18 took 0.0208102 s.
+info: === Time stepping at step #19 and time 5334818.4140886841 with step size 1001456.4023481138
+info: Number of threads: 6
+info: [time] Assembly took 0.00821136 s.
+info: [time] Applying Dirichlet BCs took 0.000847145 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00848687 s.
+info: Convergence criterion, component 0: |dx|=4.6311e+01, |x|=1.0644e+04, |dx|/|x|=4.3511e-03
+info: Convergence criterion, component 1: |dx|=1.5519e+08, |x|=2.6957e+09, |dx|/|x|=5.7569e-02
+info: Convergence criterion, component 2: |dx|=8.9801e-04, |x|=8.1774e-03, |dx|/|x|=1.0982e-01
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0181412 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00768918 s.
+info: [time] Applying Dirichlet BCs took 0.000891143 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00834961 s.
+info: Convergence criterion, component 0: |dx|=1.4508e+00, |x|=1.0643e+04, |dx|/|x|=1.3631e-04
+info: Convergence criterion, component 1: |dx|=2.0381e+07, |x|=2.7108e+09, |dx|/|x|=7.5185e-03
+info: Convergence criterion, component 2: |dx|=5.1875e-05, |x|=8.1748e-03, |dx|/|x|=6.3457e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0175199 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00864484 s.
+info: [time] Applying Dirichlet BCs took 0.00087402 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00817084 s.
+info: Convergence criterion, component 0: |dx|=2.3998e-01, |x|=1.0643e+04, |dx|/|x|=2.2548e-05
+info: Convergence criterion, component 1: |dx|=8.5819e+05, |x|=2.7105e+09, |dx|/|x|=3.1662e-04
+info: Convergence criterion, component 2: |dx|=2.6369e-06, |x|=8.1748e-03, |dx|/|x|=3.2257e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0182907 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00871132 s.
+info: [time] Applying Dirichlet BCs took 0.000829626 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00915262 s.
+info: Convergence criterion, component 0: |dx|=8.8483e-03, |x|=1.0643e+04, |dx|/|x|=8.3134e-07
+info: Convergence criterion, component 1: |dx|=5.1385e+04, |x|=2.7105e+09, |dx|/|x|=1.8958e-05
+info: Convergence criterion, component 2: |dx|=2.3828e-07, |x|=8.1748e-03, |dx|/|x|=2.9149e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.01932 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0100284 s.
+info: [time] Applying Dirichlet BCs took 0.00121551 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0078742 s.
+info: Convergence criterion, component 0: |dx|=7.2474e-04, |x|=1.0643e+04, |dx|/|x|=6.8093e-08
+info: Convergence criterion, component 1: |dx|=6.2427e+03, |x|=2.7105e+09, |dx|/|x|=2.3032e-06
+info: Convergence criterion, component 2: |dx|=1.6550e-08, |x|=8.1748e-03, |dx|/|x|=2.0245e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0197418 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0101845 s.
+info: [time] Applying Dirichlet BCs took 0.00111101 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00886693 s.
+info: Convergence criterion, component 0: |dx|=6.4077e-05, |x|=1.0643e+04, |dx|/|x|=6.0203e-09
+info: Convergence criterion, component 1: |dx|=4.3250e+02, |x|=2.7105e+09, |dx|/|x|=1.5957e-07
+info: Convergence criterion, component 2: |dx|=1.3482e-09, |x|=8.1748e-03, |dx|/|x|=1.6492e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0207843 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0101566 s.
+info: [time] Applying Dirichlet BCs took 0.00105733 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00822616 s.
+info: Convergence criterion, component 0: |dx|=4.4859e-06, |x|=1.0643e+04, |dx|/|x|=4.2147e-10
+info: Convergence criterion, component 1: |dx|=4.2199e+01, |x|=2.7105e+09, |dx|/|x|=1.5569e-08
+info: Convergence criterion, component 2: |dx|=1.2295e-10, |x|=8.1748e-03, |dx|/|x|=1.5040e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0200399 s.
+info: [time] Solving process #0 took 0.133877 s in time step #19
+info: [time] Time step #19 took 0.141589 s.
+info: === Time stepping at step #20 and time 6536566.0969064208 with step size 1201747.6828177366
+info: Number of threads: 6
+info: [time] Assembly took 0.0102871 s.
+info: [time] Applying Dirichlet BCs took 0.00109209 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00927748 s.
+info: Convergence criterion, component 0: |dx|=4.4354e+01, |x|=1.0681e+04, |dx|/|x|=4.1524e-03
+info: Convergence criterion, component 1: |dx|=1.7136e+08, |x|=2.8168e+09, |dx|/|x|=6.0835e-02
+info: Convergence criterion, component 2: |dx|=1.0014e-03, |x|=7.8273e-03, |dx|/|x|=1.2793e-01
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0212662 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0105853 s.
+info: [time] Applying Dirichlet BCs took 0.00120615 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00857605 s.
+info: Convergence criterion, component 0: |dx|=1.5850e+00, |x|=1.0681e+04, |dx|/|x|=1.4839e-04
+info: Convergence criterion, component 1: |dx|=2.0960e+07, |x|=2.8337e+09, |dx|/|x|=7.3967e-03
+info: Convergence criterion, component 2: |dx|=6.5719e-05, |x|=7.8296e-03, |dx|/|x|=8.3936e-03
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0209645 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0104172 s.
+info: [time] Applying Dirichlet BCs took 0.00103245 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00803925 s.
+info: Convergence criterion, component 0: |dx|=2.5523e-01, |x|=1.0681e+04, |dx|/|x|=2.3895e-05
+info: Convergence criterion, component 1: |dx|=9.1996e+05, |x|=2.8334e+09, |dx|/|x|=3.2469e-04
+info: Convergence criterion, component 2: |dx|=3.2975e-06, |x|=7.8294e-03, |dx|/|x|=4.2117e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0200907 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00704538 s.
+info: [time] Applying Dirichlet BCs took 0.000867417 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00844985 s.
+info: Convergence criterion, component 0: |dx|=9.6970e-03, |x|=1.0681e+04, |dx|/|x|=9.0785e-07
+info: Convergence criterion, component 1: |dx|=5.1954e+04, |x|=2.8334e+09, |dx|/|x|=1.8336e-05
+info: Convergence criterion, component 2: |dx|=2.5395e-07, |x|=7.8294e-03, |dx|/|x|=3.2436e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0169663 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00871781 s.
+info: [time] Applying Dirichlet BCs took 0.000875555 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00840622 s.
+info: Convergence criterion, component 0: |dx|=6.9774e-04, |x|=1.0681e+04, |dx|/|x|=6.5324e-08
+info: Convergence criterion, component 1: |dx|=6.2942e+03, |x|=2.8334e+09, |dx|/|x|=2.2214e-06
+info: Convergence criterion, component 2: |dx|=1.9856e-08, |x|=7.8294e-03, |dx|/|x|=2.5361e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0186047 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00877059 s.
+info: [time] Applying Dirichlet BCs took 0.000972896 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00905241 s.
+info: Convergence criterion, component 0: |dx|=6.7656e-05, |x|=1.0681e+04, |dx|/|x|=6.3341e-09
+info: Convergence criterion, component 1: |dx|=4.3801e+02, |x|=2.8334e+09, |dx|/|x|=1.5459e-07
+info: Convergence criterion, component 2: |dx|=1.3966e-09, |x|=7.8294e-03, |dx|/|x|=1.7838e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0193894 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0121135 s.
+info: [time] Applying Dirichlet BCs took 0.000849755 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00784195 s.
+info: Convergence criterion, component 0: |dx|=4.3586e-06, |x|=1.0681e+04, |dx|/|x|=4.0806e-10
+info: Convergence criterion, component 1: |dx|=4.1166e+01, |x|=2.8334e+09, |dx|/|x|=1.4529e-08
+info: Convergence criterion, component 2: |dx|=1.4176e-10, |x|=7.8294e-03, |dx|/|x|=1.8106e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0213945 s.
+info: [time] Solving process #0 took 0.138694 s in time step #20
+info: [time] Time step #20 took 0.146444 s.
+info: [time] Output of timestep 20 took 0.0210286 s.
+info: === Time stepping at step #21 and time 7978663.3162877047 with step size 1442097.219381284
+info: Number of threads: 6
+info: [time] Assembly took 0.00820058 s.
+info: [time] Applying Dirichlet BCs took 0.000847928 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00825844 s.
+info: Convergence criterion, component 0: |dx|=4.2938e+01, |x|=1.0719e+04, |dx|/|x|=4.0059e-03
+info: Convergence criterion, component 1: |dx|=1.8526e+08, |x|=2.9584e+09, |dx|/|x|=6.2621e-02
+info: Convergence criterion, component 2: |dx|=1.1188e-03, |x|=7.6398e-03, |dx|/|x|=1.4644e-01
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0179148 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.00893408 s.
+info: [time] Applying Dirichlet BCs took 0.000806424 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00843993 s.
+info: Convergence criterion, component 0: |dx|=1.6996e+00, |x|=1.0719e+04, |dx|/|x|=1.5857e-04
+info: Convergence criterion, component 1: |dx|=2.1451e+07, |x|=2.9769e+09, |dx|/|x|=7.2057e-03
+info: Convergence criterion, component 2: |dx|=8.5710e-05, |x|=7.6527e-03, |dx|/|x|=1.1200e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0187727 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0125366 s.
+info: [time] Applying Dirichlet BCs took 0.000895922 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00909336 s.
+info: Convergence criterion, component 0: |dx|=2.6698e-01, |x|=1.0719e+04, |dx|/|x|=2.4908e-05
+info: Convergence criterion, component 1: |dx|=9.4988e+05, |x|=2.9766e+09, |dx|/|x|=3.1912e-04
+info: Convergence criterion, component 2: |dx|=4.1051e-06, |x|=7.6520e-03, |dx|/|x|=5.3647e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0231478 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.012124 s.
+info: [time] Applying Dirichlet BCs took 0.00113709 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00923841 s.
+info: Convergence criterion, component 0: |dx|=1.0248e-02, |x|=1.0719e+04, |dx|/|x|=9.5610e-07
+info: Convergence criterion, component 1: |dx|=4.9087e+04, |x|=2.9766e+09, |dx|/|x|=1.6491e-05
+info: Convergence criterion, component 2: |dx|=2.4786e-07, |x|=7.6520e-03, |dx|/|x|=3.2391e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0231274 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0118615 s.
+info: [time] Applying Dirichlet BCs took 0.000953951 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00831701 s.
+info: Convergence criterion, component 0: |dx|=6.0514e-04, |x|=1.0719e+04, |dx|/|x|=5.6457e-08
+info: Convergence criterion, component 1: |dx|=5.8516e+03, |x|=2.9766e+09, |dx|/|x|=1.9659e-06
+info: Convergence criterion, component 2: |dx|=2.2917e-08, |x|=7.6520e-03, |dx|/|x|=2.9949e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0217386 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113508 s.
+info: [time] Applying Dirichlet BCs took 0.000993427 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00807412 s.
+info: Convergence criterion, component 0: |dx|=6.5532e-05, |x|=1.0719e+04, |dx|/|x|=6.1138e-09
+info: Convergence criterion, component 1: |dx|=3.8616e+02, |x|=2.9766e+09, |dx|/|x|=1.2973e-07
+info: Convergence criterion, component 2: |dx|=1.2310e-09, |x|=7.6520e-03, |dx|/|x|=1.6087e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0210061 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0116449 s.
+info: [time] Applying Dirichlet BCs took 0.000850285 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00858852 s.
+info: Convergence criterion, component 0: |dx|=3.6360e-06, |x|=1.0719e+04, |dx|/|x|=3.3922e-10
+info: Convergence criterion, component 1: |dx|=3.4851e+01, |x|=2.9766e+09, |dx|/|x|=1.1708e-08
+info: Convergence criterion, component 2: |dx|=1.4873e-10, |x|=7.6520e-03, |dx|/|x|=1.9437e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.021709 s.
+info: [time] Solving process #0 took 0.147458 s in time step #21
+info: [time] Time step #21 took 0.155073 s.
+info: === Time stepping at step #22 and time 9709179.9795452449 with step size 1730516.6632575407
+info: Number of threads: 6
+info: [time] Assembly took 0.0108821 s.
+info: [time] Applying Dirichlet BCs took 0.00103232 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00863622 s.
+info: Convergence criterion, component 0: |dx|=4.2001e+01, |x|=1.0756e+04, |dx|/|x|=3.9049e-03
+info: Convergence criterion, component 1: |dx|=1.9564e+08, |x|=3.1184e+09, |dx|/|x|=6.2739e-02
+info: Convergence criterion, component 2: |dx|=1.2571e-03, |x|=7.6956e-03, |dx|/|x|=1.6335e-01
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0211441 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0120394 s.
+info: [time] Applying Dirichlet BCs took 0.00084269 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00823021 s.
+info: Convergence criterion, component 0: |dx|=1.7760e+00, |x|=1.0756e+04, |dx|/|x|=1.6512e-04
+info: Convergence criterion, component 1: |dx|=2.1712e+07, |x|=3.1381e+09, |dx|/|x|=6.9190e-03
+info: Convergence criterion, component 2: |dx|=1.1273e-04, |x|=7.7277e-03, |dx|/|x|=1.4588e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0217198 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0114429 s.
+info: [time] Applying Dirichlet BCs took 0.000869963 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00834174 s.
+info: Convergence criterion, component 0: |dx|=2.7193e-01, |x|=1.0756e+04, |dx|/|x|=2.5282e-05
+info: Convergence criterion, component 1: |dx|=9.3215e+05, |x|=3.1377e+09, |dx|/|x|=2.9708e-04
+info: Convergence criterion, component 2: |dx|=4.9804e-06, |x|=7.7263e-03, |dx|/|x|=6.4460e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0212428 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0137787 s.
+info: [time] Applying Dirichlet BCs took 0.00117516 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.0155244 s.
+info: Convergence criterion, component 0: |dx|=1.0215e-02, |x|=1.0756e+04, |dx|/|x|=9.4977e-07
+info: Convergence criterion, component 1: |dx|=4.1931e+04, |x|=3.1377e+09, |dx|/|x|=1.3364e-05
+info: Convergence criterion, component 2: |dx|=2.1289e-07, |x|=7.7263e-03, |dx|/|x|=2.7554e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0311911 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0110376 s.
+info: [time] Applying Dirichlet BCs took 0.00092979 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00865247 s.
+info: Convergence criterion, component 0: |dx|=4.5426e-04, |x|=1.0756e+04, |dx|/|x|=4.2234e-08
+info: Convergence criterion, component 1: |dx|=4.9045e+03, |x|=3.1377e+09, |dx|/|x|=1.5631e-06
+info: Convergence criterion, component 2: |dx|=2.4822e-08, |x|=7.7263e-03, |dx|/|x|=3.2127e-06
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0212172 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0102031 s.
+info: [time] Applying Dirichlet BCs took 0.000830972 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00820345 s.
+info: Convergence criterion, component 0: |dx|=5.6668e-05, |x|=1.0756e+04, |dx|/|x|=5.2686e-09
+info: Convergence criterion, component 1: |dx|=2.8162e+02, |x|=3.1377e+09, |dx|/|x|=8.9753e-08
+info: Convergence criterion, component 2: |dx|=8.5958e-10, |x|=7.7263e-03, |dx|/|x|=1.1125e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #6 took 0.0198331 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0107348 s.
+info: [time] Applying Dirichlet BCs took 0.000972005 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00875853 s.
+info: Convergence criterion, component 0: |dx|=2.4991e-06, |x|=1.0756e+04, |dx|/|x|=2.3235e-10
+info: Convergence criterion, component 1: |dx|=2.4947e+01, |x|=3.1377e+09, |dx|/|x|=7.9505e-09
+info: Convergence criterion, component 2: |dx|=1.3816e-10, |x|=7.7263e-03, |dx|/|x|=1.7882e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #7 took 0.0210729 s.
+info: [time] Solving process #0 took 0.157439 s in time step #22
+info: [time] Time step #22 took 0.165212 s.
+info: [time] Output of timestep 22 took 0.0207727 s.
+info: === Time stepping at step #23 and time 10000000 with step size 290820.02045475505
+info: Number of threads: 6
+info: [time] Assembly took 0.0109008 s.
+info: [time] Applying Dirichlet BCs took 0.000902563 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00901971 s.
+info: Convergence criterion, component 0: |dx|=6.8011e+00, |x|=1.0762e+04, |dx|/|x|=6.3197e-04
+info: Convergence criterion, component 1: |dx|=3.6321e+07, |x|=3.1660e+09, |dx|/|x|=1.1473e-02
+info: Convergence criterion, component 2: |dx|=2.2549e-04, |x|=7.7641e-03, |dx|/|x|=2.9043e-02
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #1 took 0.0214153 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0109832 s.
+info: [time] Applying Dirichlet BCs took 0.000808809 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00786654 s.
+info: Convergence criterion, component 0: |dx|=2.0725e-01, |x|=1.0762e+04, |dx|/|x|=1.9258e-05
+info: Convergence criterion, component 1: |dx|=7.7556e+05, |x|=3.1667e+09, |dx|/|x|=2.4491e-04
+info: Convergence criterion, component 2: |dx|=3.8580e-06, |x|=7.7648e-03, |dx|/|x|=4.9686e-04
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #2 took 0.0202439 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0116188 s.
+info: [time] Applying Dirichlet BCs took 0.000756063 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00878162 s.
+info: Convergence criterion, component 0: |dx|=5.3806e-03, |x|=1.0762e+04, |dx|/|x|=4.9998e-07
+info: Convergence criterion, component 1: |dx|=2.0728e+04, |x|=3.1666e+09, |dx|/|x|=6.5458e-06
+info: Convergence criterion, component 2: |dx|=1.0342e-07, |x|=7.7648e-03, |dx|/|x|=1.3319e-05
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #3 took 0.0217598 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0113262 s.
+info: [time] Applying Dirichlet BCs took 0.00101504 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00876213 s.
+info: Convergence criterion, component 0: |dx|=1.7867e-04, |x|=1.0762e+04, |dx|/|x|=1.6602e-08
+info: Convergence criterion, component 1: |dx|=4.6848e+02, |x|=3.1666e+09, |dx|/|x|=1.4794e-07
+info: Convergence criterion, component 2: |dx|=1.8757e-09, |x|=7.7648e-03, |dx|/|x|=2.4157e-07
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #4 took 0.0217155 s.
+info: Number of threads: 6
+info: [time] Assembly took 0.0115427 s.
+info: [time] Applying Dirichlet BCs took 0.000869114 s.
+info: -> compute with Eigen direct linear solver PardisoLU
+info: -> solve with Eigen direct linear solver PardisoLU
+info: [time] Linear solver took 0.00744526 s.
+info: Convergence criterion, component 0: |dx|=4.2127e-06, |x|=1.0762e+04, |dx|/|x|=3.9146e-10
+info: Convergence criterion, component 1: |dx|=2.2681e+01, |x|=3.1666e+09, |dx|/|x|=7.1624e-09
+info: Convergence criterion, component 2: |dx|=9.0421e-11, |x|=7.7648e-03, |dx|/|x|=1.1645e-08
+info: Convergence criterion, component 3: |dx|=0.0000e+00, |x|=0.0000e+00, |dx|/|x|=nan
+info: [time] Iteration #5 took 0.0204439 s.
+info: [time] Solving process #0 took 0.105616 s in time step #23
+info: [time] Time step #23 took 0.113495 s.
+info: The whole computation of the time stepping took 23 steps, in which
+	 the accepted steps are 23, and the rejected steps are 0.
+
+info: [time] Output of timestep 23 took 0.0210772 s.
+info: [time] Execution took 3.33875 s.
+warning: There are still 23 global vectors in use. This might be an indicator of a possible waste of memory.
+info: OGS terminated on 2024-10-26 18:05:49+0200.
