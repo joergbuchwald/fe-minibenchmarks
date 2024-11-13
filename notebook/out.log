@@ -1,0 +1,8 @@
+info: This is OpenGeoSys-6 version 6.4.4-1810-gb94647c3.
+info: OGS started on 2023-12-07 17:09:20+0100.
+info: Reading project file /home/buchwalj/github/fe-minibenchmarks/notebook/out.prj.
+error: File 'mesh.vtu' does not exist.
+critical: /home/buchwalj/github/ogs/Applications/ApplicationsLib/ProjectData.cpp:173 readSingleMesh() 
+error: Could not read mesh from 'mesh.vtu' file. No mesh added.
+info: OGS terminated on 2023-12-07 17:09:20+0100.
+error: OGS terminated with error.
